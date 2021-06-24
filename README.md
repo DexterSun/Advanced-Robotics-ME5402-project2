@@ -18,6 +18,8 @@ If one want to get the full code, please feel free to contact any of the authors
 '4. Simulink NN' builds a neural network with Matlab, which helps to modify parameters in the control algorithm. Noted that since time limited, the performance of this model is not very good(huge time delay and poor tracking precision). One can modify this part if interested.
 
 ### Report:
+This report focuses on the derivation of algorithm application, stability analysis, and a little explanation of algorithm and structure.
+
 All parts of report are organised based on knowledge basically in class slides and the original algorithm paper.
 
 Thanks all the authors.
