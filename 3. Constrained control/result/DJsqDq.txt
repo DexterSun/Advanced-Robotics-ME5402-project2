@@ -1,0 +1,1300 @@
+DJsqDq(1, 1, 1) = 200*cos(th1 + thb)*sin(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2))^2 - 800*cos(th1 + thb)*sin(th2 + th3)^2*sin(th1 + thb) - 200*cos(th1 + thb)*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2))^2 + (2*Rw*((Rw*cos(thb))/2 + (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T)*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T - (2*Rw*((Rw*cos(thb))/2 - (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T)*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T;
+
+DJsqDq(1, 1, 2) = 200*cos(th1 + thb)^2*(2*cos(th2 + th3) + 3*cos(th2))*(2*sin(th2 + th3) + 3*sin(th2)) + 800*cos(th2 + th3)*cos(th1 + thb)^2*sin(th2 + th3) - 200*sin(th1 + thb)^2*(2*cos(th2 + th3) + 3*cos(th2))*(2*sin(th2 + th3) + 3*sin(th2)) - (2*Rw*(30*sin(th1 + thb)*sin(th2) + 20*sin(th2 + th3)*sin(th1 + thb))*((Rw*cos(thb))/2 + (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T))/T + (2*Rw*(30*sin(th1 + thb)*sin(th2) + 20*sin(th2 + th3)*sin(th1 + thb))*((Rw*cos(thb))/2 - (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T))/T;
+
+DJsqDq(1, 1, 3) = 800*cos(th2 + th3)*cos(th1 + thb)^2*sin(th2 + th3) + 400*cos(th2 + th3)*cos(th1 + thb)^2*(2*sin(th2 + th3) + 3*sin(th2)) - 400*sin(th2 + th3)*sin(th1 + thb)^2*(2*cos(th2 + th3) + 3*cos(th2)) - (40*Rw*sin(th2 + th3)*sin(th1 + thb)*((Rw*cos(thb))/2 + (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T))/T + (40*Rw*sin(th2 + th3)*sin(th1 + thb)*((Rw*cos(thb))/2 - (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T))/T;
+
+DJsqDq(1, 1, 4) = 0;
+
+DJsqDq(1, 1, 5) = 0;
+
+DJsqDq(1, 1, 6) = 200*cos(th1 + thb)*sin(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2))^2 - 2*((Rw*sin(thb))/2 - (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T)*((Rw*cos(thb))/2 + (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T) - 2*((Rw*sin(thb))/2 + (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T)*((Rw*cos(thb))/2 - (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T) - 800*cos(th1 + thb)*sin(th2 + th3)^2*sin(th1 + thb) - 200*cos(th1 + thb)*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2))^2;
+
+DJsqDq(1, 2, 1) = 100*sin(th1 + thb)^2*(2*cos(th2 + th3) + 3*cos(th2))^2 - 100*cos(th1 + thb)^2*(2*cos(th2 + th3) + 3*cos(th2))^2 + 400*cos(th1 + thb)^2*sin(th2 + th3)^2 + 100*cos(th1 + thb)^2*(2*sin(th2 + th3) + 3*sin(th2))^2 - 400*sin(th2 + th3)^2*sin(th1 + thb)^2 - 100*sin(th1 + thb)^2*(2*sin(th2 + th3) + 3*sin(th2))^2 - (Rw*((Rw*sin(thb))/2 + (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T)*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T + (Rw*((Rw*sin(thb))/2 - (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T)*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T + (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2))*((Rw*cos(thb))/2 + (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T))/T - (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2))*((Rw*cos(thb))/2 - (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T))/T;
+
+DJsqDq(1, 2, 2) = 400*cos(th1 + thb)*sin(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2))*(2*sin(th2 + th3) + 3*sin(th2)) + 800*cos(th2 + th3)*cos(th1 + thb)*sin(th2 + th3)*sin(th1 + thb) + (Rw*(20*cos(th1 + thb)*sin(th2 + th3) + 30*cos(th1 + thb)*sin(th2))*((Rw*cos(thb))/2 + (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T))/T - (Rw*(20*cos(th1 + thb)*sin(th2 + th3) + 30*cos(th1 + thb)*sin(th2))*((Rw*cos(thb))/2 - (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T))/T + (Rw*(30*sin(th1 + thb)*sin(th2) + 20*sin(th2 + th3)*sin(th1 + thb))*((Rw*sin(thb))/2 + (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T))/T - (Rw*(30*sin(th1 + thb)*sin(th2) + 20*sin(th2 + th3)*sin(th1 + thb))*((Rw*sin(thb))/2 - (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T))/T;
+
+DJsqDq(1, 2, 3) = 400*cos(th1 + thb)*sin(th2 + th3)*sin(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2)) + 800*cos(th2 + th3)*cos(th1 + thb)*sin(th2 + th3)*sin(th1 + thb) + 400*cos(th2 + th3)*cos(th1 + thb)*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2)) + (20*Rw*cos(th1 + thb)*sin(th2 + th3)*((Rw*cos(thb))/2 + (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T))/T + (20*Rw*sin(th2 + th3)*sin(th1 + thb)*((Rw*sin(thb))/2 + (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T))/T - (20*Rw*cos(th1 + thb)*sin(th2 + th3)*((Rw*cos(thb))/2 - (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T))/T - (20*Rw*sin(th2 + th3)*sin(th1 + thb)*((Rw*sin(thb))/2 - (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T))/T;
+
+DJsqDq(1, 2, 4) = 0;
+
+DJsqDq(1, 2, 5) = 0;
+
+DJsqDq(1, 2, 6) = 100*sin(th1 + thb)^2*(2*cos(th2 + th3) + 3*cos(th2))^2 - 100*cos(th1 + thb)^2*(2*cos(th2 + th3) + 3*cos(th2))^2 + 400*cos(th1 + thb)^2*sin(th2 + th3)^2 + 100*cos(th1 + thb)^2*(2*sin(th2 + th3) + 3*sin(th2))^2 - 400*sin(th2 + th3)^2*sin(th1 + thb)^2 - 100*sin(th1 + thb)^2*(2*sin(th2 + th3) + 3*sin(th2))^2 - ((Rw*sin(thb))/2 + (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T)^2 - ((Rw*sin(thb))/2 - (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T)^2 + ((Rw*cos(thb))/2 + (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T)^2 + ((Rw*cos(thb))/2 - (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T)^2;
+
+DJsqDq(1, 3, 1) = - 10*sin(th1 + thb)*(20*cos(th2 + th3) + 30*cos(th2))*(2*sin(th2 + th3) + 3*sin(th2)) - 400*cos(th2 + th3)*sin(th2 + th3)*sin(th1 + thb);
+
+DJsqDq(1, 3, 2) = 400*cos(th2 + th3)^2*cos(th1 + thb) - 400*cos(th1 + thb)*sin(th2 + th3)^2 + 10*cos(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2))*(20*cos(th2 + th3) + 30*cos(th2)) - 10*cos(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2))*(20*sin(th2 + th3) + 30*sin(th2));
+
+DJsqDq(1, 3, 3) = 400*cos(th2 + th3)^2*cos(th1 + thb) - 400*cos(th1 + thb)*sin(th2 + th3)^2 + 20*cos(th2 + th3)*cos(th1 + thb)*(20*cos(th2 + th3) + 30*cos(th2)) - 200*cos(th1 + thb)*sin(th2 + th3)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(1, 3, 4) = 0;
+
+DJsqDq(1, 3, 5) = 0;
+
+DJsqDq(1, 3, 6) = - 10*sin(th1 + thb)*(20*cos(th2 + th3) + 30*cos(th2))*(2*sin(th2 + th3) + 3*sin(th2)) - 400*cos(th2 + th3)*sin(th2 + th3)*sin(th1 + thb);
+
+DJsqDq(1, 4, 1) = 0;
+
+DJsqDq(1, 4, 2) = 0;
+
+DJsqDq(1, 4, 3) = 0;
+
+DJsqDq(1, 4, 4) = 0;
+
+DJsqDq(1, 4, 5) = 0;
+
+DJsqDq(1, 4, 6) = 0;
+
+DJsqDq(1, 5, 1) = 20*sign(cos(th2 + th3))*sin(th2 + th3)*sin(th1 + thb) + 10*sign(cos(th2 + th3))*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(1, 5, 2) = 40*dirac(cos(th2 + th3))*cos(th1 + thb)*sin(th2 + th3)^2 - 10*sign(cos(th2 + th3))*cos(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2)) - 20*sign(cos(th2 + th3))*cos(th2 + th3)*cos(th1 + thb) + 20*dirac(cos(th2 + th3))*cos(th1 + thb)*sin(th2 + th3)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(1, 5, 3) = 40*dirac(cos(th2 + th3))*cos(th1 + thb)*sin(th2 + th3)^2 - 40*sign(cos(th2 + th3))*cos(th2 + th3)*cos(th1 + thb) + 20*dirac(cos(th2 + th3))*cos(th1 + thb)*sin(th2 + th3)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(1, 5, 4) = 0;
+
+DJsqDq(1, 5, 5) = 0;
+
+DJsqDq(1, 5, 6) = 20*sign(cos(th2 + th3))*sin(th2 + th3)*sin(th1 + thb) + 10*sign(cos(th2 + th3))*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(1, 6, 1) = - 10*cos(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2)) - (2*Rw^2*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T^2;
+
+DJsqDq(1, 6, 2) = 10*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2)) + (2*Rw^2*(30*sin(th1 + thb)*sin(th2) + 20*sin(th2 + th3)*sin(th1 + thb)))/T^2;
+
+DJsqDq(1, 6, 3) = 20*sin(th2 + th3)*sin(th1 + thb) + (40*Rw^2*sin(th2 + th3)*sin(th1 + thb))/T^2;
+
+DJsqDq(1, 6, 4) = 0;
+
+DJsqDq(1, 6, 5) = 0;
+
+DJsqDq(1, 6, 6) = (Rw*((Rw*sin(thb))/2 - (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T))/T - (Rw*((Rw*sin(thb))/2 + (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T))/T - 10*cos(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2));
+
+DJsqDq(2, 1, 1) = 100*sin(th1 + thb)^2*(2*cos(th2 + th3) + 3*cos(th2))^2 - 100*cos(th1 + thb)^2*(2*cos(th2 + th3) + 3*cos(th2))^2 + 400*cos(th1 + thb)^2*sin(th2 + th3)^2 + 100*cos(th1 + thb)^2*(2*sin(th2 + th3) + 3*sin(th2))^2 - 400*sin(th2 + th3)^2*sin(th1 + thb)^2 - 100*sin(th1 + thb)^2*(2*sin(th2 + th3) + 3*sin(th2))^2 - (Rw*((Rw*sin(thb))/2 + (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T)*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T + (Rw*((Rw*sin(thb))/2 - (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T)*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T + (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2))*((Rw*cos(thb))/2 + (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T))/T - (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2))*((Rw*cos(thb))/2 - (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T))/T;
+
+DJsqDq(2, 1, 2) = 400*cos(th1 + thb)*sin(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2))*(2*sin(th2 + th3) + 3*sin(th2)) + 800*cos(th2 + th3)*cos(th1 + thb)*sin(th2 + th3)*sin(th1 + thb) + (Rw*(20*cos(th1 + thb)*sin(th2 + th3) + 30*cos(th1 + thb)*sin(th2))*((Rw*cos(thb))/2 + (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T))/T - (Rw*(20*cos(th1 + thb)*sin(th2 + th3) + 30*cos(th1 + thb)*sin(th2))*((Rw*cos(thb))/2 - (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T))/T + (Rw*(30*sin(th1 + thb)*sin(th2) + 20*sin(th2 + th3)*sin(th1 + thb))*((Rw*sin(thb))/2 + (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T))/T - (Rw*(30*sin(th1 + thb)*sin(th2) + 20*sin(th2 + th3)*sin(th1 + thb))*((Rw*sin(thb))/2 - (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T))/T;
+
+DJsqDq(2, 1, 3) = 400*cos(th1 + thb)*sin(th2 + th3)*sin(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2)) + 800*cos(th2 + th3)*cos(th1 + thb)*sin(th2 + th3)*sin(th1 + thb) + 400*cos(th2 + th3)*cos(th1 + thb)*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2)) + (20*Rw*cos(th1 + thb)*sin(th2 + th3)*((Rw*cos(thb))/2 + (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T))/T + (20*Rw*sin(th2 + th3)*sin(th1 + thb)*((Rw*sin(thb))/2 + (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T))/T - (20*Rw*cos(th1 + thb)*sin(th2 + th3)*((Rw*cos(thb))/2 - (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T))/T - (20*Rw*sin(th2 + th3)*sin(th1 + thb)*((Rw*sin(thb))/2 - (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T))/T;
+
+DJsqDq(2, 1, 4) = 0;
+
+DJsqDq(2, 1, 5) = 0;
+
+DJsqDq(2, 1, 6) = 100*sin(th1 + thb)^2*(2*cos(th2 + th3) + 3*cos(th2))^2 - 100*cos(th1 + thb)^2*(2*cos(th2 + th3) + 3*cos(th2))^2 + 400*cos(th1 + thb)^2*sin(th2 + th3)^2 + 100*cos(th1 + thb)^2*(2*sin(th2 + th3) + 3*sin(th2))^2 - 400*sin(th2 + th3)^2*sin(th1 + thb)^2 - 100*sin(th1 + thb)^2*(2*sin(th2 + th3) + 3*sin(th2))^2 - ((Rw*sin(thb))/2 + (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T)^2 - ((Rw*sin(thb))/2 - (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T)^2 + ((Rw*cos(thb))/2 + (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T)^2 + ((Rw*cos(thb))/2 - (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T)^2;
+
+DJsqDq(2, 2, 1) = 800*cos(th1 + thb)*sin(th2 + th3)^2*sin(th1 + thb) - 200*cos(th1 + thb)*sin(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2))^2 + 200*cos(th1 + thb)*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2))^2 - (2*Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2))*((Rw*sin(thb))/2 + (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T))/T + (2*Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2))*((Rw*sin(thb))/2 - (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T))/T;
+
+DJsqDq(2, 2, 2) = 200*sin(th1 + thb)^2*(2*cos(th2 + th3) + 3*cos(th2))*(2*sin(th2 + th3) + 3*sin(th2)) - 200*cos(th1 + thb)^2*(2*cos(th2 + th3) + 3*cos(th2))*(2*sin(th2 + th3) + 3*sin(th2)) + 800*cos(th2 + th3)*sin(th2 + th3)*sin(th1 + thb)^2 - (2*Rw*(20*cos(th1 + thb)*sin(th2 + th3) + 30*cos(th1 + thb)*sin(th2))*((Rw*sin(thb))/2 + (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T))/T + (2*Rw*(20*cos(th1 + thb)*sin(th2 + th3) + 30*cos(th1 + thb)*sin(th2))*((Rw*sin(thb))/2 - (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T))/T;
+
+DJsqDq(2, 2, 3) = 800*cos(th2 + th3)*sin(th2 + th3)*sin(th1 + thb)^2 - 400*cos(th1 + thb)^2*sin(th2 + th3)*(2*cos(th2 + th3) + 3*cos(th2)) + 400*cos(th2 + th3)*sin(th1 + thb)^2*(2*sin(th2 + th3) + 3*sin(th2)) - (40*Rw*cos(th1 + thb)*sin(th2 + th3)*((Rw*sin(thb))/2 + (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T))/T + (40*Rw*cos(th1 + thb)*sin(th2 + th3)*((Rw*sin(thb))/2 - (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T))/T;
+
+DJsqDq(2, 2, 4) = 0;
+
+DJsqDq(2, 2, 5) = 0;
+
+DJsqDq(2, 2, 6) = 2*((Rw*sin(thb))/2 + (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T)*((Rw*cos(thb))/2 - (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T) + 2*((Rw*sin(thb))/2 - (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T)*((Rw*cos(thb))/2 + (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T) - 200*cos(th1 + thb)*sin(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2))^2 + 800*cos(th1 + thb)*sin(th2 + th3)^2*sin(th1 + thb) + 200*cos(th1 + thb)*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2))^2;
+
+DJsqDq(2, 3, 1) = 10*cos(th1 + thb)*(20*cos(th2 + th3) + 30*cos(th2))*(2*sin(th2 + th3) + 3*sin(th2)) + 400*cos(th2 + th3)*cos(th1 + thb)*sin(th2 + th3);
+
+DJsqDq(2, 3, 2) = 400*cos(th2 + th3)^2*sin(th1 + thb) - 400*sin(th2 + th3)^2*sin(th1 + thb) + 10*sin(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2))*(20*cos(th2 + th3) + 30*cos(th2)) - 10*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2))*(20*sin(th2 + th3) + 30*sin(th2));
+
+DJsqDq(2, 3, 3) = 400*cos(th2 + th3)^2*sin(th1 + thb) - 400*sin(th2 + th3)^2*sin(th1 + thb) + 20*cos(th2 + th3)*sin(th1 + thb)*(20*cos(th2 + th3) + 30*cos(th2)) - 200*sin(th2 + th3)*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(2, 3, 4) = 0;
+
+DJsqDq(2, 3, 5) = 0;
+
+DJsqDq(2, 3, 6) = 10*cos(th1 + thb)*(20*cos(th2 + th3) + 30*cos(th2))*(2*sin(th2 + th3) + 3*sin(th2)) + 400*cos(th2 + th3)*cos(th1 + thb)*sin(th2 + th3);
+
+DJsqDq(2, 4, 1) = 0;
+
+DJsqDq(2, 4, 2) = 0;
+
+DJsqDq(2, 4, 3) = 0;
+
+DJsqDq(2, 4, 4) = 0;
+
+DJsqDq(2, 4, 5) = 0;
+
+DJsqDq(2, 4, 6) = 0;
+
+DJsqDq(2, 5, 1) = - 20*sign(cos(th2 + th3))*cos(th1 + thb)*sin(th2 + th3) - 10*sign(cos(th2 + th3))*cos(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(2, 5, 2) = 40*dirac(cos(th2 + th3))*sin(th2 + th3)^2*sin(th1 + thb) - 10*sign(cos(th2 + th3))*sin(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2)) - 20*sign(cos(th2 + th3))*cos(th2 + th3)*sin(th1 + thb) + 20*dirac(cos(th2 + th3))*sin(th2 + th3)*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(2, 5, 3) = 40*dirac(cos(th2 + th3))*sin(th2 + th3)^2*sin(th1 + thb) - 40*sign(cos(th2 + th3))*cos(th2 + th3)*sin(th1 + thb) + 20*dirac(cos(th2 + th3))*sin(th2 + th3)*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(2, 5, 4) = 0;
+
+DJsqDq(2, 5, 5) = 0;
+
+DJsqDq(2, 5, 6) = - 20*sign(cos(th2 + th3))*cos(th1 + thb)*sin(th2 + th3) - 10*sign(cos(th2 + th3))*cos(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(2, 6, 1) = - 10*sin(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2)) - (2*Rw^2*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T^2;
+
+DJsqDq(2, 6, 2) = - 10*cos(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2)) - (2*Rw^2*(20*cos(th1 + thb)*sin(th2 + th3) + 30*cos(th1 + thb)*sin(th2)))/T^2;
+
+DJsqDq(2, 6, 3) = - 20*cos(th1 + thb)*sin(th2 + th3) - (40*Rw^2*cos(th1 + thb)*sin(th2 + th3))/T^2;
+
+DJsqDq(2, 6, 4) = 0;
+
+DJsqDq(2, 6, 5) = 0;
+
+DJsqDq(2, 6, 6) = (Rw*((Rw*cos(thb))/2 - (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T))/T - (Rw*((Rw*cos(thb))/2 + (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T))/T - 10*sin(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2));
+
+DJsqDq(3, 1, 1) = - 10*sin(th1 + thb)*(20*cos(th2 + th3) + 30*cos(th2))*(2*sin(th2 + th3) + 3*sin(th2)) - 400*cos(th2 + th3)*sin(th2 + th3)*sin(th1 + thb);
+
+DJsqDq(3, 1, 2) = 400*cos(th2 + th3)^2*cos(th1 + thb) - 400*cos(th1 + thb)*sin(th2 + th3)^2 + 10*cos(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2))*(20*cos(th2 + th3) + 30*cos(th2)) - 10*cos(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2))*(20*sin(th2 + th3) + 30*sin(th2));
+
+DJsqDq(3, 1, 3) = 400*cos(th2 + th3)^2*cos(th1 + thb) - 400*cos(th1 + thb)*sin(th2 + th3)^2 + 20*cos(th2 + th3)*cos(th1 + thb)*(20*cos(th2 + th3) + 30*cos(th2)) - 200*cos(th1 + thb)*sin(th2 + th3)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(3, 1, 4) = 0;
+
+DJsqDq(3, 1, 5) = 0;
+
+DJsqDq(3, 1, 6) = - 10*sin(th1 + thb)*(20*cos(th2 + th3) + 30*cos(th2))*(2*sin(th2 + th3) + 3*sin(th2)) - 400*cos(th2 + th3)*sin(th2 + th3)*sin(th1 + thb);
+
+DJsqDq(3, 2, 1) = 10*cos(th1 + thb)*(20*cos(th2 + th3) + 30*cos(th2))*(2*sin(th2 + th3) + 3*sin(th2)) + 400*cos(th2 + th3)*cos(th1 + thb)*sin(th2 + th3);
+
+DJsqDq(3, 2, 2) = 400*cos(th2 + th3)^2*sin(th1 + thb) - 400*sin(th2 + th3)^2*sin(th1 + thb) + 10*sin(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2))*(20*cos(th2 + th3) + 30*cos(th2)) - 10*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2))*(20*sin(th2 + th3) + 30*sin(th2));
+
+DJsqDq(3, 2, 3) = 400*cos(th2 + th3)^2*sin(th1 + thb) - 400*sin(th2 + th3)^2*sin(th1 + thb) + 20*cos(th2 + th3)*sin(th1 + thb)*(20*cos(th2 + th3) + 30*cos(th2)) - 200*sin(th2 + th3)*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(3, 2, 4) = 0;
+
+DJsqDq(3, 2, 5) = 0;
+
+DJsqDq(3, 2, 6) = 10*cos(th1 + thb)*(20*cos(th2 + th3) + 30*cos(th2))*(2*sin(th2 + th3) + 3*sin(th2)) + 400*cos(th2 + th3)*cos(th1 + thb)*sin(th2 + th3);
+
+DJsqDq(3, 3, 1) = 0;
+
+DJsqDq(3, 3, 2) = - 2*(20*cos(th2 + th3) + 30*cos(th2))*(20*sin(th2 + th3) + 30*sin(th2)) - 800*cos(th2 + th3)*sin(th2 + th3);
+
+DJsqDq(3, 3, 3) = - 40*sin(th2 + th3)*(20*cos(th2 + th3) + 30*cos(th2)) - 800*cos(th2 + th3)*sin(th2 + th3);
+
+DJsqDq(3, 3, 4) = 0;
+
+DJsqDq(3, 3, 5) = 0;
+
+DJsqDq(3, 3, 6) = 0;
+
+DJsqDq(3, 4, 1) = 0;
+
+DJsqDq(3, 4, 2) = 0;
+
+DJsqDq(3, 4, 3) = 0;
+
+DJsqDq(3, 4, 4) = 0;
+
+DJsqDq(3, 4, 5) = 0;
+
+DJsqDq(3, 4, 6) = 0;
+
+DJsqDq(3, 5, 1) = 0;
+
+DJsqDq(3, 5, 2) = 20*sign(cos(th2 + th3))*sin(th2 + th3) + sign(cos(th2 + th3))*(20*sin(th2 + th3) + 30*sin(th2)) + 2*dirac(cos(th2 + th3))*sin(th2 + th3)*(20*cos(th2 + th3) + 30*cos(th2)) + 40*dirac(cos(th2 + th3))*cos(th2 + th3)*sin(th2 + th3);
+
+DJsqDq(3, 5, 3) = 40*sign(cos(th2 + th3))*sin(th2 + th3) + 2*dirac(cos(th2 + th3))*sin(th2 + th3)*(20*cos(th2 + th3) + 30*cos(th2)) + 40*dirac(cos(th2 + th3))*cos(th2 + th3)*sin(th2 + th3);
+
+DJsqDq(3, 5, 4) = 0;
+
+DJsqDq(3, 5, 5) = 0;
+
+DJsqDq(3, 5, 6) = 0;
+
+DJsqDq(3, 6, 1) = 0;
+
+DJsqDq(3, 6, 2) = 0;
+
+DJsqDq(3, 6, 3) = 0;
+
+DJsqDq(3, 6, 4) = 0;
+
+DJsqDq(3, 6, 5) = 0;
+
+DJsqDq(3, 6, 6) = 0;
+
+DJsqDq(4, 1, 1) = 0;
+
+DJsqDq(4, 1, 2) = 0;
+
+DJsqDq(4, 1, 3) = 0;
+
+DJsqDq(4, 1, 4) = 0;
+
+DJsqDq(4, 1, 5) = 0;
+
+DJsqDq(4, 1, 6) = 0;
+
+DJsqDq(4, 2, 1) = 0;
+
+DJsqDq(4, 2, 2) = 0;
+
+DJsqDq(4, 2, 3) = 0;
+
+DJsqDq(4, 2, 4) = 0;
+
+DJsqDq(4, 2, 5) = 0;
+
+DJsqDq(4, 2, 6) = 0;
+
+DJsqDq(4, 3, 1) = 0;
+
+DJsqDq(4, 3, 2) = 0;
+
+DJsqDq(4, 3, 3) = 0;
+
+DJsqDq(4, 3, 4) = 0;
+
+DJsqDq(4, 3, 5) = 0;
+
+DJsqDq(4, 3, 6) = 0;
+
+DJsqDq(4, 4, 1) = 0;
+
+DJsqDq(4, 4, 2) = 0;
+
+DJsqDq(4, 4, 3) = 0;
+
+DJsqDq(4, 4, 4) = 0;
+
+DJsqDq(4, 4, 5) = 0;
+
+DJsqDq(4, 4, 6) = 0;
+
+DJsqDq(4, 5, 1) = 0;
+
+DJsqDq(4, 5, 2) = 0;
+
+DJsqDq(4, 5, 3) = 0;
+
+DJsqDq(4, 5, 4) = 0;
+
+DJsqDq(4, 5, 5) = 0;
+
+DJsqDq(4, 5, 6) = 0;
+
+DJsqDq(4, 6, 1) = 0;
+
+DJsqDq(4, 6, 2) = 0;
+
+DJsqDq(4, 6, 3) = 0;
+
+DJsqDq(4, 6, 4) = 0;
+
+DJsqDq(4, 6, 5) = 0;
+
+DJsqDq(4, 6, 6) = 0;
+
+DJsqDq(5, 1, 1) = 20*sign(cos(th2 + th3))*sin(th2 + th3)*sin(th1 + thb) + 10*sign(cos(th2 + th3))*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(5, 1, 2) = 40*dirac(cos(th2 + th3))*cos(th1 + thb)*sin(th2 + th3)^2 - 10*sign(cos(th2 + th3))*cos(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2)) - 20*sign(cos(th2 + th3))*cos(th2 + th3)*cos(th1 + thb) + 20*dirac(cos(th2 + th3))*cos(th1 + thb)*sin(th2 + th3)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(5, 1, 3) = 40*dirac(cos(th2 + th3))*cos(th1 + thb)*sin(th2 + th3)^2 - 40*sign(cos(th2 + th3))*cos(th2 + th3)*cos(th1 + thb) + 20*dirac(cos(th2 + th3))*cos(th1 + thb)*sin(th2 + th3)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(5, 1, 4) = 0;
+
+DJsqDq(5, 1, 5) = 0;
+
+DJsqDq(5, 1, 6) = 20*sign(cos(th2 + th3))*sin(th2 + th3)*sin(th1 + thb) + 10*sign(cos(th2 + th3))*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(5, 2, 1) = - 20*sign(cos(th2 + th3))*cos(th1 + thb)*sin(th2 + th3) - 10*sign(cos(th2 + th3))*cos(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(5, 2, 2) = 40*dirac(cos(th2 + th3))*sin(th2 + th3)^2*sin(th1 + thb) - 10*sign(cos(th2 + th3))*sin(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2)) - 20*sign(cos(th2 + th3))*cos(th2 + th3)*sin(th1 + thb) + 20*dirac(cos(th2 + th3))*sin(th2 + th3)*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(5, 2, 3) = 40*dirac(cos(th2 + th3))*sin(th2 + th3)^2*sin(th1 + thb) - 40*sign(cos(th2 + th3))*cos(th2 + th3)*sin(th1 + thb) + 20*dirac(cos(th2 + th3))*sin(th2 + th3)*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(5, 2, 4) = 0;
+
+DJsqDq(5, 2, 5) = 0;
+
+DJsqDq(5, 2, 6) = - 20*sign(cos(th2 + th3))*cos(th1 + thb)*sin(th2 + th3) - 10*sign(cos(th2 + th3))*cos(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(5, 3, 1) = 0;
+
+DJsqDq(5, 3, 2) = 20*sign(cos(th2 + th3))*sin(th2 + th3) + sign(cos(th2 + th3))*(20*sin(th2 + th3) + 30*sin(th2)) + 2*dirac(cos(th2 + th3))*sin(th2 + th3)*(20*cos(th2 + th3) + 30*cos(th2)) + 40*dirac(cos(th2 + th3))*cos(th2 + th3)*sin(th2 + th3);
+
+DJsqDq(5, 3, 3) = 40*sign(cos(th2 + th3))*sin(th2 + th3) + 2*dirac(cos(th2 + th3))*sin(th2 + th3)*(20*cos(th2 + th3) + 30*cos(th2)) + 40*dirac(cos(th2 + th3))*cos(th2 + th3)*sin(th2 + th3);
+
+DJsqDq(5, 3, 4) = 0;
+
+DJsqDq(5, 3, 5) = 0;
+
+DJsqDq(5, 3, 6) = 0;
+
+DJsqDq(5, 4, 1) = 0;
+
+DJsqDq(5, 4, 2) = 0;
+
+DJsqDq(5, 4, 3) = 0;
+
+DJsqDq(5, 4, 4) = 0;
+
+DJsqDq(5, 4, 5) = 0;
+
+DJsqDq(5, 4, 6) = 0;
+
+DJsqDq(5, 5, 1) = 0;
+
+DJsqDq(5, 5, 2) = -8*dirac(cos(th2 + th3))*sign(cos(th2 + th3))*sin(th2 + th3);
+
+DJsqDq(5, 5, 3) = -8*dirac(cos(th2 + th3))*sign(cos(th2 + th3))*sin(th2 + th3);
+
+DJsqDq(5, 5, 4) = 0;
+
+DJsqDq(5, 5, 5) = 0;
+
+DJsqDq(5, 5, 6) = 0;
+
+DJsqDq(5, 6, 1) = 0;
+
+DJsqDq(5, 6, 2) = 0;
+
+DJsqDq(5, 6, 3) = 0;
+
+DJsqDq(5, 6, 4) = 0;
+
+DJsqDq(5, 6, 5) = 0;
+
+DJsqDq(5, 6, 6) = 0;
+
+DJsqDq(6, 1, 1) = - 10*cos(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2)) - (2*Rw^2*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T^2;
+
+DJsqDq(6, 1, 2) = 10*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2)) + (2*Rw^2*(30*sin(th1 + thb)*sin(th2) + 20*sin(th2 + th3)*sin(th1 + thb)))/T^2;
+
+DJsqDq(6, 1, 3) = 20*sin(th2 + th3)*sin(th1 + thb) + (40*Rw^2*sin(th2 + th3)*sin(th1 + thb))/T^2;
+
+DJsqDq(6, 1, 4) = 0;
+
+DJsqDq(6, 1, 5) = 0;
+
+DJsqDq(6, 1, 6) = (Rw*((Rw*sin(thb))/2 - (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T))/T - (Rw*((Rw*sin(thb))/2 + (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T))/T - 10*cos(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2));
+
+DJsqDq(6, 2, 1) = - 10*sin(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2)) - (2*Rw^2*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T^2;
+
+DJsqDq(6, 2, 2) = - 10*cos(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2)) - (2*Rw^2*(20*cos(th1 + thb)*sin(th2 + th3) + 30*cos(th1 + thb)*sin(th2)))/T^2;
+
+DJsqDq(6, 2, 3) = - 20*cos(th1 + thb)*sin(th2 + th3) - (40*Rw^2*cos(th1 + thb)*sin(th2 + th3))/T^2;
+
+DJsqDq(6, 2, 4) = 0;
+
+DJsqDq(6, 2, 5) = 0;
+
+DJsqDq(6, 2, 6) = (Rw*((Rw*cos(thb))/2 - (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T))/T - (Rw*((Rw*cos(thb))/2 + (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T))/T - 10*sin(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2));
+
+DJsqDq(6, 3, 1) = 0;
+
+DJsqDq(6, 3, 2) = 0;
+
+DJsqDq(6, 3, 3) = 0;
+
+DJsqDq(6, 3, 4) = 0;
+
+DJsqDq(6, 3, 5) = 0;
+
+DJsqDq(6, 3, 6) = 0;
+
+DJsqDq(6, 4, 1) = 0;
+
+DJsqDq(6, 4, 2) = 0;
+
+DJsqDq(6, 4, 3) = 0;
+
+DJsqDq(6, 4, 4) = 0;
+
+DJsqDq(6, 4, 5) = 0;
+
+DJsqDq(6, 4, 6) = 0;
+
+DJsqDq(6, 5, 1) = 0;
+
+DJsqDq(6, 5, 2) = 0;
+
+DJsqDq(6, 5, 3) = 0;
+
+DJsqDq(6, 5, 4) = 0;
+
+DJsqDq(6, 5, 5) = 0;
+
+DJsqDq(6, 5, 6) = 0;
+
+DJsqDq(6, 6, 1) = 0;
+
+DJsqDq(6, 6, 2) = 0;
+
+DJsqDq(6, 6, 3) = 0;
+
+DJsqDq(6, 6, 4) = 0;
+
+DJsqDq(6, 6, 5) = 0;
+
+DJsqDq(6, 6, 6) = 0;
+
+
+endDJsqDq(1, 1, 1) = 200*cos(th1 + thb)*sin(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2))^2 - 800*cos(th1 + thb)*sin(th2 + th3)^2*sin(th1 + thb) - 200*cos(th1 + thb)*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2))^2 + (Rw^2*(40*cos(th2 + th3)*cos(th1 + thb) + 60*cos(th1 + thb)*cos(th2))*(2*sin(thb) + T*cos(thb) + 40*cos(th2 + th3)*sin(th1 + thb) + 60*sin(th1 + thb)*cos(th2)))/(2*T^2) + (Rw^2*(40*cos(th2 + th3)*cos(th1 + thb) + 60*cos(th1 + thb)*cos(th2))*(2*sin(thb) - T*cos(thb) + 40*cos(th2 + th3)*sin(th1 + thb) + 60*sin(th1 + thb)*cos(th2)))/(2*T^2);
+
+DJsqDq(1, 1, 2) = 200*cos(th1 + thb)^2*(2*cos(th2 + th3) + 3*cos(th2))*(2*sin(th2 + th3) + 3*sin(th2)) + 800*cos(th2 + th3)*cos(th1 + thb)^2*sin(th2 + th3) - 200*sin(th1 + thb)^2*(2*cos(th2 + th3) + 3*cos(th2))*(2*sin(th2 + th3) + 3*sin(th2)) - (Rw^2*(60*sin(th1 + thb)*sin(th2) + 40*sin(th2 + th3)*sin(th1 + thb))*(2*sin(thb) + T*cos(thb) + 40*cos(th2 + th3)*sin(th1 + thb) + 60*sin(th1 + thb)*cos(th2)))/(2*T^2) - (Rw^2*(60*sin(th1 + thb)*sin(th2) + 40*sin(th2 + th3)*sin(th1 + thb))*(2*sin(thb) - T*cos(thb) + 40*cos(th2 + th3)*sin(th1 + thb) + 60*sin(th1 + thb)*cos(th2)))/(2*T^2);
+
+DJsqDq(1, 1, 3) = 800*cos(th2 + th3)*cos(th1 + thb)^2*sin(th2 + th3) + 400*cos(th2 + th3)*cos(th1 + thb)^2*(2*sin(th2 + th3) + 3*sin(th2)) - 400*sin(th2 + th3)*sin(th1 + thb)^2*(2*cos(th2 + th3) + 3*cos(th2)) - (20*Rw^2*sin(th2 + th3)*sin(th1 + thb)*(2*sin(thb) + T*cos(thb) + 40*cos(th2 + th3)*sin(th1 + thb) + 60*sin(th1 + thb)*cos(th2)))/T^2 - (20*Rw^2*sin(th2 + th3)*sin(th1 + thb)*(2*sin(thb) - T*cos(thb) + 40*cos(th2 + th3)*sin(th1 + thb) + 60*sin(th1 + thb)*cos(th2)))/T^2;
+
+DJsqDq(1, 1, 4) = 0;
+
+DJsqDq(1, 1, 5) = 0;
+
+DJsqDq(1, 1, 6) = 200*cos(th1 + thb)*sin(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2))^2 - 800*cos(th1 + thb)*sin(th2 + th3)^2*sin(th1 + thb) - 200*cos(th1 + thb)*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2))^2 + (Rw^2*(2*cos(thb) + T*sin(thb) + 40*cos(th2 + th3)*cos(th1 + thb) + 60*cos(th1 + thb)*cos(th2))*(2*sin(thb) - T*cos(thb) + 40*cos(th2 + th3)*sin(th1 + thb) + 60*sin(th1 + thb)*cos(th2)))/(2*T^2) + (Rw^2*(2*cos(thb) - T*sin(thb) + 40*cos(th2 + th3)*cos(th1 + thb) + 60*cos(th1 + thb)*cos(th2))*(2*sin(thb) + T*cos(thb) + 40*cos(th2 + th3)*sin(th1 + thb) + 60*sin(th1 + thb)*cos(th2)))/(2*T^2);
+
+DJsqDq(1, 2, 1) = 100*sin(th1 + thb)^2*(2*cos(th2 + th3) + 3*cos(th2))^2 - 100*cos(th1 + thb)^2*(2*cos(th2 + th3) + 3*cos(th2))^2 + 400*cos(th1 + thb)^2*sin(th2 + th3)^2 + 100*cos(th1 + thb)^2*(2*sin(th2 + th3) + 3*sin(th2))^2 - 400*sin(th2 + th3)^2*sin(th1 + thb)^2 - 100*sin(th1 + thb)^2*(2*sin(th2 + th3) + 3*sin(th2))^2 - (Rw^2*(40*cos(th2 + th3)*cos(th1 + thb) + 60*cos(th1 + thb)*cos(th2))*(2*cos(thb) + T*sin(thb) + 40*cos(th2 + th3)*cos(th1 + thb) + 60*cos(th1 + thb)*cos(th2)))/(4*T^2) - (Rw^2*(40*cos(th2 + th3)*cos(th1 + thb) + 60*cos(th1 + thb)*cos(th2))*(2*cos(thb) - T*sin(thb) + 40*cos(th2 + th3)*cos(th1 + thb) + 60*cos(th1 + thb)*cos(th2)))/(4*T^2) + (Rw^2*(40*cos(th2 + th3)*sin(th1 + thb) + 60*sin(th1 + thb)*cos(th2))*(2*sin(thb) + T*cos(thb) + 40*cos(th2 + th3)*sin(th1 + thb) + 60*sin(th1 + thb)*cos(th2)))/(4*T^2) + (Rw^2*(40*cos(th2 + th3)*sin(th1 + thb) + 60*sin(th1 + thb)*cos(th2))*(2*sin(thb) - T*cos(thb) + 40*cos(th2 + th3)*sin(th1 + thb) + 60*sin(th1 + thb)*cos(th2)))/(4*T^2);
+
+DJsqDq(1, 2, 2) = 400*cos(th1 + thb)*sin(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2))*(2*sin(th2 + th3) + 3*sin(th2)) + 800*cos(th2 + th3)*cos(th1 + thb)*sin(th2 + th3)*sin(th1 + thb) + (Rw^2*(40*cos(th1 + thb)*sin(th2 + th3) + 60*cos(th1 + thb)*sin(th2))*(2*sin(thb) + T*cos(thb) + 40*cos(th2 + th3)*sin(th1 + thb) + 60*sin(th1 + thb)*cos(th2)))/(4*T^2) + (Rw^2*(60*sin(th1 + thb)*sin(th2) + 40*sin(th2 + th3)*sin(th1 + thb))*(2*cos(thb) + T*sin(thb) + 40*cos(th2 + th3)*cos(th1 + thb) + 60*cos(th1 + thb)*cos(th2)))/(4*T^2) + (Rw^2*(40*cos(th1 + thb)*sin(th2 + th3) + 60*cos(th1 + thb)*sin(th2))*(2*sin(thb) - T*cos(thb) + 40*cos(th2 + th3)*sin(th1 + thb) + 60*sin(th1 + thb)*cos(th2)))/(4*T^2) + (Rw^2*(60*sin(th1 + thb)*sin(th2) + 40*sin(th2 + th3)*sin(th1 + thb))*(2*cos(thb) - T*sin(thb) + 40*cos(th2 + th3)*cos(th1 + thb) + 60*cos(th1 + thb)*cos(th2)))/(4*T^2);
+
+DJsqDq(1, 2, 3) = 400*cos(th1 + thb)*sin(th2 + th3)*sin(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2)) + 800*cos(th2 + th3)*cos(th1 + thb)*sin(th2 + th3)*sin(th1 + thb) + 400*cos(th2 + th3)*cos(th1 + thb)*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2)) + (10*Rw^2*sin(th2 + th3)*sin(th1 + thb)*(2*cos(thb) + T*sin(thb) + 40*cos(th2 + th3)*cos(th1 + thb) + 60*cos(th1 + thb)*cos(th2)))/T^2 + (10*Rw^2*sin(th2 + th3)*sin(th1 + thb)*(2*cos(thb) - T*sin(thb) + 40*cos(th2 + th3)*cos(th1 + thb) + 60*cos(th1 + thb)*cos(th2)))/T^2 + (10*Rw^2*cos(th1 + thb)*sin(th2 + th3)*(2*sin(thb) + T*cos(thb) + 40*cos(th2 + th3)*sin(th1 + thb) + 60*sin(th1 + thb)*cos(th2)))/T^2 + (10*Rw^2*cos(th1 + thb)*sin(th2 + th3)*(2*sin(thb) - T*cos(thb) + 40*cos(th2 + th3)*sin(th1 + thb) + 60*sin(th1 + thb)*cos(th2)))/T^2;
+
+DJsqDq(1, 2, 4) = 0;
+
+DJsqDq(1, 2, 5) = 0;
+
+DJsqDq(1, 2, 6) = 100*sin(th1 + thb)^2*(2*cos(th2 + th3) + 3*cos(th2))^2 - 100*cos(th1 + thb)^2*(2*cos(th2 + th3) + 3*cos(th2))^2 + 400*cos(th1 + thb)^2*sin(th2 + th3)^2 + 100*cos(th1 + thb)^2*(2*sin(th2 + th3) + 3*sin(th2))^2 - 400*sin(th2 + th3)^2*sin(th1 + thb)^2 - 100*sin(th1 + thb)^2*(2*sin(th2 + th3) + 3*sin(th2))^2 + (Rw^2*(2*sin(thb) + T*cos(thb) + 40*cos(th2 + th3)*sin(th1 + thb) + 60*sin(th1 + thb)*cos(th2))^2)/(4*T^2) + (Rw^2*(2*sin(thb) - T*cos(thb) + 40*cos(th2 + th3)*sin(th1 + thb) + 60*sin(th1 + thb)*cos(th2))^2)/(4*T^2) - (Rw^2*(2*cos(thb) + T*sin(thb) + 40*cos(th2 + th3)*cos(th1 + thb) + 60*cos(th1 + thb)*cos(th2))^2)/(4*T^2) - (Rw^2*(2*cos(thb) - T*sin(thb) + 40*cos(th2 + th3)*cos(th1 + thb) + 60*cos(th1 + thb)*cos(th2))^2)/(4*T^2);
+
+DJsqDq(1, 3, 1) = - 10*sin(th1 + thb)*(20*cos(th2 + th3) + 30*cos(th2))*(2*sin(th2 + th3) + 3*sin(th2)) - 400*cos(th2 + th3)*sin(th2 + th3)*sin(th1 + thb);
+
+DJsqDq(1, 3, 2) = 400*cos(th2 + th3)^2*cos(th1 + thb) - 400*cos(th1 + thb)*sin(th2 + th3)^2 + 10*cos(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2))*(20*cos(th2 + th3) + 30*cos(th2)) - 10*cos(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2))*(20*sin(th2 + th3) + 30*sin(th2));
+
+DJsqDq(1, 3, 3) = 400*cos(th2 + th3)^2*cos(th1 + thb) - 400*cos(th1 + thb)*sin(th2 + th3)^2 + 20*cos(th2 + th3)*cos(th1 + thb)*(20*cos(th2 + th3) + 30*cos(th2)) - 200*cos(th1 + thb)*sin(th2 + th3)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(1, 3, 4) = 0;
+
+DJsqDq(1, 3, 5) = 0;
+
+DJsqDq(1, 3, 6) = - 10*sin(th1 + thb)*(20*cos(th2 + th3) + 30*cos(th2))*(2*sin(th2 + th3) + 3*sin(th2)) - 400*cos(th2 + th3)*sin(th2 + th3)*sin(th1 + thb);
+
+DJsqDq(1, 4, 1) = 0;
+
+DJsqDq(1, 4, 2) = 0;
+
+DJsqDq(1, 4, 3) = 0;
+
+DJsqDq(1, 4, 4) = 0;
+
+DJsqDq(1, 4, 5) = 0;
+
+DJsqDq(1, 4, 6) = 0;
+
+DJsqDq(1, 5, 1) = 20*sign(cos(th2 + th3))*sin(th2 + th3)*sin(th1 + thb) + 10*sign(cos(th2 + th3))*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(1, 5, 2) = 40*dirac(cos(th2 + th3))*cos(th1 + thb)*sin(th2 + th3)^2 - 10*sign(cos(th2 + th3))*cos(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2)) - 20*sign(cos(th2 + th3))*cos(th2 + th3)*cos(th1 + thb) + 20*dirac(cos(th2 + th3))*cos(th1 + thb)*sin(th2 + th3)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(1, 5, 3) = 40*dirac(cos(th2 + th3))*cos(th1 + thb)*sin(th2 + th3)^2 - 40*sign(cos(th2 + th3))*cos(th2 + th3)*cos(th1 + thb) + 20*dirac(cos(th2 + th3))*cos(th1 + thb)*sin(th2 + th3)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(1, 5, 4) = 0;
+
+DJsqDq(1, 5, 5) = 0;
+
+DJsqDq(1, 5, 6) = 20*sign(cos(th2 + th3))*sin(th2 + th3)*sin(th1 + thb) + 10*sign(cos(th2 + th3))*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(1, 6, 1) = - 10*cos(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2)) - (Rw^2*(40*cos(th2 + th3)*cos(th1 + thb) + 60*cos(th1 + thb)*cos(th2)))/T^2;
+
+DJsqDq(1, 6, 2) = 10*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2)) + (Rw^2*(60*sin(th1 + thb)*sin(th2) + 40*sin(th2 + th3)*sin(th1 + thb)))/T^2;
+
+DJsqDq(1, 6, 3) = 20*sin(th2 + th3)*sin(th1 + thb) + (40*Rw^2*sin(th2 + th3)*sin(th1 + thb))/T^2;
+
+DJsqDq(1, 6, 4) = 0;
+
+DJsqDq(1, 6, 5) = 0;
+
+DJsqDq(1, 6, 6) = - 10*cos(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2)) - (Rw^2*(2*cos(thb) + T*sin(thb) + 40*cos(th2 + th3)*cos(th1 + thb) + 60*cos(th1 + thb)*cos(th2)))/(2*T^2) - (Rw^2*(2*cos(thb) - T*sin(thb) + 40*cos(th2 + th3)*cos(th1 + thb) + 60*cos(th1 + thb)*cos(th2)))/(2*T^2);
+
+DJsqDq(2, 1, 1) = 100*sin(th1 + thb)^2*(2*cos(th2 + th3) + 3*cos(th2))^2 - 100*cos(th1 + thb)^2*(2*cos(th2 + th3) + 3*cos(th2))^2 + 400*cos(th1 + thb)^2*sin(th2 + th3)^2 + 100*cos(th1 + thb)^2*(2*sin(th2 + th3) + 3*sin(th2))^2 - 400*sin(th2 + th3)^2*sin(th1 + thb)^2 - 100*sin(th1 + thb)^2*(2*sin(th2 + th3) + 3*sin(th2))^2 - (Rw^2*(40*cos(th2 + th3)*cos(th1 + thb) + 60*cos(th1 + thb)*cos(th2))*(2*cos(thb) + T*sin(thb) + 40*cos(th2 + th3)*cos(th1 + thb) + 60*cos(th1 + thb)*cos(th2)))/(4*T^2) - (Rw^2*(40*cos(th2 + th3)*cos(th1 + thb) + 60*cos(th1 + thb)*cos(th2))*(2*cos(thb) - T*sin(thb) + 40*cos(th2 + th3)*cos(th1 + thb) + 60*cos(th1 + thb)*cos(th2)))/(4*T^2) + (Rw^2*(40*cos(th2 + th3)*sin(th1 + thb) + 60*sin(th1 + thb)*cos(th2))*(2*sin(thb) + T*cos(thb) + 40*cos(th2 + th3)*sin(th1 + thb) + 60*sin(th1 + thb)*cos(th2)))/(4*T^2) + (Rw^2*(40*cos(th2 + th3)*sin(th1 + thb) + 60*sin(th1 + thb)*cos(th2))*(2*sin(thb) - T*cos(thb) + 40*cos(th2 + th3)*sin(th1 + thb) + 60*sin(th1 + thb)*cos(th2)))/(4*T^2);
+
+DJsqDq(2, 1, 2) = 400*cos(th1 + thb)*sin(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2))*(2*sin(th2 + th3) + 3*sin(th2)) + 800*cos(th2 + th3)*cos(th1 + thb)*sin(th2 + th3)*sin(th1 + thb) + (Rw^2*(40*cos(th1 + thb)*sin(th2 + th3) + 60*cos(th1 + thb)*sin(th2))*(2*sin(thb) + T*cos(thb) + 40*cos(th2 + th3)*sin(th1 + thb) + 60*sin(th1 + thb)*cos(th2)))/(4*T^2) + (Rw^2*(60*sin(th1 + thb)*sin(th2) + 40*sin(th2 + th3)*sin(th1 + thb))*(2*cos(thb) + T*sin(thb) + 40*cos(th2 + th3)*cos(th1 + thb) + 60*cos(th1 + thb)*cos(th2)))/(4*T^2) + (Rw^2*(40*cos(th1 + thb)*sin(th2 + th3) + 60*cos(th1 + thb)*sin(th2))*(2*sin(thb) - T*cos(thb) + 40*cos(th2 + th3)*sin(th1 + thb) + 60*sin(th1 + thb)*cos(th2)))/(4*T^2) + (Rw^2*(60*sin(th1 + thb)*sin(th2) + 40*sin(th2 + th3)*sin(th1 + thb))*(2*cos(thb) - T*sin(thb) + 40*cos(th2 + th3)*cos(th1 + thb) + 60*cos(th1 + thb)*cos(th2)))/(4*T^2);
+
+DJsqDq(2, 1, 3) = 400*cos(th1 + thb)*sin(th2 + th3)*sin(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2)) + 800*cos(th2 + th3)*cos(th1 + thb)*sin(th2 + th3)*sin(th1 + thb) + 400*cos(th2 + th3)*cos(th1 + thb)*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2)) + (10*Rw^2*sin(th2 + th3)*sin(th1 + thb)*(2*cos(thb) + T*sin(thb) + 40*cos(th2 + th3)*cos(th1 + thb) + 60*cos(th1 + thb)*cos(th2)))/T^2 + (10*Rw^2*sin(th2 + th3)*sin(th1 + thb)*(2*cos(thb) - T*sin(thb) + 40*cos(th2 + th3)*cos(th1 + thb) + 60*cos(th1 + thb)*cos(th2)))/T^2 + (10*Rw^2*cos(th1 + thb)*sin(th2 + th3)*(2*sin(thb) + T*cos(thb) + 40*cos(th2 + th3)*sin(th1 + thb) + 60*sin(th1 + thb)*cos(th2)))/T^2 + (10*Rw^2*cos(th1 + thb)*sin(th2 + th3)*(2*sin(thb) - T*cos(thb) + 40*cos(th2 + th3)*sin(th1 + thb) + 60*sin(th1 + thb)*cos(th2)))/T^2;
+
+DJsqDq(2, 1, 4) = 0;
+
+DJsqDq(2, 1, 5) = 0;
+
+DJsqDq(2, 1, 6) = 100*sin(th1 + thb)^2*(2*cos(th2 + th3) + 3*cos(th2))^2 - 100*cos(th1 + thb)^2*(2*cos(th2 + th3) + 3*cos(th2))^2 + 400*cos(th1 + thb)^2*sin(th2 + th3)^2 + 100*cos(th1 + thb)^2*(2*sin(th2 + th3) + 3*sin(th2))^2 - 400*sin(th2 + th3)^2*sin(th1 + thb)^2 - 100*sin(th1 + thb)^2*(2*sin(th2 + th3) + 3*sin(th2))^2 + (Rw^2*(2*sin(thb) + T*cos(thb) + 40*cos(th2 + th3)*sin(th1 + thb) + 60*sin(th1 + thb)*cos(th2))^2)/(4*T^2) + (Rw^2*(2*sin(thb) - T*cos(thb) + 40*cos(th2 + th3)*sin(th1 + thb) + 60*sin(th1 + thb)*cos(th2))^2)/(4*T^2) - (Rw^2*(2*cos(thb) + T*sin(thb) + 40*cos(th2 + th3)*cos(th1 + thb) + 60*cos(th1 + thb)*cos(th2))^2)/(4*T^2) - (Rw^2*(2*cos(thb) - T*sin(thb) + 40*cos(th2 + th3)*cos(th1 + thb) + 60*cos(th1 + thb)*cos(th2))^2)/(4*T^2);
+
+DJsqDq(2, 2, 1) = 800*cos(th1 + thb)*sin(th2 + th3)^2*sin(th1 + thb) - 200*cos(th1 + thb)*sin(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2))^2 + 200*cos(th1 + thb)*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2))^2 - (Rw^2*(40*cos(th2 + th3)*sin(th1 + thb) + 60*sin(th1 + thb)*cos(th2))*(2*cos(thb) + T*sin(thb) + 40*cos(th2 + th3)*cos(th1 + thb) + 60*cos(th1 + thb)*cos(th2)))/(2*T^2) - (Rw^2*(40*cos(th2 + th3)*sin(th1 + thb) + 60*sin(th1 + thb)*cos(th2))*(2*cos(thb) - T*sin(thb) + 40*cos(th2 + th3)*cos(th1 + thb) + 60*cos(th1 + thb)*cos(th2)))/(2*T^2);
+
+DJsqDq(2, 2, 2) = 200*sin(th1 + thb)^2*(2*cos(th2 + th3) + 3*cos(th2))*(2*sin(th2 + th3) + 3*sin(th2)) - 200*cos(th1 + thb)^2*(2*cos(th2 + th3) + 3*cos(th2))*(2*sin(th2 + th3) + 3*sin(th2)) + 800*cos(th2 + th3)*sin(th2 + th3)*sin(th1 + thb)^2 - (Rw^2*(40*cos(th1 + thb)*sin(th2 + th3) + 60*cos(th1 + thb)*sin(th2))*(2*cos(thb) + T*sin(thb) + 40*cos(th2 + th3)*cos(th1 + thb) + 60*cos(th1 + thb)*cos(th2)))/(2*T^2) - (Rw^2*(40*cos(th1 + thb)*sin(th2 + th3) + 60*cos(th1 + thb)*sin(th2))*(2*cos(thb) - T*sin(thb) + 40*cos(th2 + th3)*cos(th1 + thb) + 60*cos(th1 + thb)*cos(th2)))/(2*T^2);
+
+DJsqDq(2, 2, 3) = 800*cos(th2 + th3)*sin(th2 + th3)*sin(th1 + thb)^2 - 400*cos(th1 + thb)^2*sin(th2 + th3)*(2*cos(th2 + th3) + 3*cos(th2)) + 400*cos(th2 + th3)*sin(th1 + thb)^2*(2*sin(th2 + th3) + 3*sin(th2)) - (20*Rw^2*cos(th1 + thb)*sin(th2 + th3)*(2*cos(thb) + T*sin(thb) + 40*cos(th2 + th3)*cos(th1 + thb) + 60*cos(th1 + thb)*cos(th2)))/T^2 - (20*Rw^2*cos(th1 + thb)*sin(th2 + th3)*(2*cos(thb) - T*sin(thb) + 40*cos(th2 + th3)*cos(th1 + thb) + 60*cos(th1 + thb)*cos(th2)))/T^2;
+
+DJsqDq(2, 2, 4) = 0;
+
+DJsqDq(2, 2, 5) = 0;
+
+DJsqDq(2, 2, 6) = 800*cos(th1 + thb)*sin(th2 + th3)^2*sin(th1 + thb) - 200*cos(th1 + thb)*sin(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2))^2 + 200*cos(th1 + thb)*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2))^2 - (Rw^2*(2*cos(thb) + T*sin(thb) + 40*cos(th2 + th3)*cos(th1 + thb) + 60*cos(th1 + thb)*cos(th2))*(2*sin(thb) - T*cos(thb) + 40*cos(th2 + th3)*sin(th1 + thb) + 60*sin(th1 + thb)*cos(th2)))/(2*T^2) - (Rw^2*(2*cos(thb) - T*sin(thb) + 40*cos(th2 + th3)*cos(th1 + thb) + 60*cos(th1 + thb)*cos(th2))*(2*sin(thb) + T*cos(thb) + 40*cos(th2 + th3)*sin(th1 + thb) + 60*sin(th1 + thb)*cos(th2)))/(2*T^2);
+
+DJsqDq(2, 3, 1) = 10*cos(th1 + thb)*(20*cos(th2 + th3) + 30*cos(th2))*(2*sin(th2 + th3) + 3*sin(th2)) + 400*cos(th2 + th3)*cos(th1 + thb)*sin(th2 + th3);
+
+DJsqDq(2, 3, 2) = 400*cos(th2 + th3)^2*sin(th1 + thb) - 400*sin(th2 + th3)^2*sin(th1 + thb) + 10*sin(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2))*(20*cos(th2 + th3) + 30*cos(th2)) - 10*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2))*(20*sin(th2 + th3) + 30*sin(th2));
+
+DJsqDq(2, 3, 3) = 400*cos(th2 + th3)^2*sin(th1 + thb) - 400*sin(th2 + th3)^2*sin(th1 + thb) + 20*cos(th2 + th3)*sin(th1 + thb)*(20*cos(th2 + th3) + 30*cos(th2)) - 200*sin(th2 + th3)*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(2, 3, 4) = 0;
+
+DJsqDq(2, 3, 5) = 0;
+
+DJsqDq(2, 3, 6) = 10*cos(th1 + thb)*(20*cos(th2 + th3) + 30*cos(th2))*(2*sin(th2 + th3) + 3*sin(th2)) + 400*cos(th2 + th3)*cos(th1 + thb)*sin(th2 + th3);
+
+DJsqDq(2, 4, 1) = 0;
+
+DJsqDq(2, 4, 2) = 0;
+
+DJsqDq(2, 4, 3) = 0;
+
+DJsqDq(2, 4, 4) = 0;
+
+DJsqDq(2, 4, 5) = 0;
+
+DJsqDq(2, 4, 6) = 0;
+
+DJsqDq(2, 5, 1) = - 20*sign(cos(th2 + th3))*cos(th1 + thb)*sin(th2 + th3) - 10*sign(cos(th2 + th3))*cos(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(2, 5, 2) = 40*dirac(cos(th2 + th3))*sin(th2 + th3)^2*sin(th1 + thb) - 10*sign(cos(th2 + th3))*sin(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2)) - 20*sign(cos(th2 + th3))*cos(th2 + th3)*sin(th1 + thb) + 20*dirac(cos(th2 + th3))*sin(th2 + th3)*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(2, 5, 3) = 40*dirac(cos(th2 + th3))*sin(th2 + th3)^2*sin(th1 + thb) - 40*sign(cos(th2 + th3))*cos(th2 + th3)*sin(th1 + thb) + 20*dirac(cos(th2 + th3))*sin(th2 + th3)*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(2, 5, 4) = 0;
+
+DJsqDq(2, 5, 5) = 0;
+
+DJsqDq(2, 5, 6) = - 20*sign(cos(th2 + th3))*cos(th1 + thb)*sin(th2 + th3) - 10*sign(cos(th2 + th3))*cos(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(2, 6, 1) = - 10*sin(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2)) - (Rw^2*(40*cos(th2 + th3)*sin(th1 + thb) + 60*sin(th1 + thb)*cos(th2)))/T^2;
+
+DJsqDq(2, 6, 2) = - 10*cos(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2)) - (Rw^2*(40*cos(th1 + thb)*sin(th2 + th3) + 60*cos(th1 + thb)*sin(th2)))/T^2;
+
+DJsqDq(2, 6, 3) = - 20*cos(th1 + thb)*sin(th2 + th3) - (40*Rw^2*cos(th1 + thb)*sin(th2 + th3))/T^2;
+
+DJsqDq(2, 6, 4) = 0;
+
+DJsqDq(2, 6, 5) = 0;
+
+DJsqDq(2, 6, 6) = - 10*sin(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2)) - (Rw^2*(2*sin(thb) + T*cos(thb) + 40*cos(th2 + th3)*sin(th1 + thb) + 60*sin(th1 + thb)*cos(th2)))/(2*T^2) - (Rw^2*(2*sin(thb) - T*cos(thb) + 40*cos(th2 + th3)*sin(th1 + thb) + 60*sin(th1 + thb)*cos(th2)))/(2*T^2);
+
+DJsqDq(3, 1, 1) = - 10*sin(th1 + thb)*(20*cos(th2 + th3) + 30*cos(th2))*(2*sin(th2 + th3) + 3*sin(th2)) - 400*cos(th2 + th3)*sin(th2 + th3)*sin(th1 + thb);
+
+DJsqDq(3, 1, 2) = 400*cos(th2 + th3)^2*cos(th1 + thb) - 400*cos(th1 + thb)*sin(th2 + th3)^2 + 10*cos(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2))*(20*cos(th2 + th3) + 30*cos(th2)) - 10*cos(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2))*(20*sin(th2 + th3) + 30*sin(th2));
+
+DJsqDq(3, 1, 3) = 400*cos(th2 + th3)^2*cos(th1 + thb) - 400*cos(th1 + thb)*sin(th2 + th3)^2 + 20*cos(th2 + th3)*cos(th1 + thb)*(20*cos(th2 + th3) + 30*cos(th2)) - 200*cos(th1 + thb)*sin(th2 + th3)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(3, 1, 4) = 0;
+
+DJsqDq(3, 1, 5) = 0;
+
+DJsqDq(3, 1, 6) = - 10*sin(th1 + thb)*(20*cos(th2 + th3) + 30*cos(th2))*(2*sin(th2 + th3) + 3*sin(th2)) - 400*cos(th2 + th3)*sin(th2 + th3)*sin(th1 + thb);
+
+DJsqDq(3, 2, 1) = 10*cos(th1 + thb)*(20*cos(th2 + th3) + 30*cos(th2))*(2*sin(th2 + th3) + 3*sin(th2)) + 400*cos(th2 + th3)*cos(th1 + thb)*sin(th2 + th3);
+
+DJsqDq(3, 2, 2) = 400*cos(th2 + th3)^2*sin(th1 + thb) - 400*sin(th2 + th3)^2*sin(th1 + thb) + 10*sin(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2))*(20*cos(th2 + th3) + 30*cos(th2)) - 10*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2))*(20*sin(th2 + th3) + 30*sin(th2));
+
+DJsqDq(3, 2, 3) = 400*cos(th2 + th3)^2*sin(th1 + thb) - 400*sin(th2 + th3)^2*sin(th1 + thb) + 20*cos(th2 + th3)*sin(th1 + thb)*(20*cos(th2 + th3) + 30*cos(th2)) - 200*sin(th2 + th3)*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(3, 2, 4) = 0;
+
+DJsqDq(3, 2, 5) = 0;
+
+DJsqDq(3, 2, 6) = 10*cos(th1 + thb)*(20*cos(th2 + th3) + 30*cos(th2))*(2*sin(th2 + th3) + 3*sin(th2)) + 400*cos(th2 + th3)*cos(th1 + thb)*sin(th2 + th3);
+
+DJsqDq(3, 3, 1) = 0;
+
+DJsqDq(3, 3, 2) = - 2*(20*cos(th2 + th3) + 30*cos(th2))*(20*sin(th2 + th3) + 30*sin(th2)) - 800*cos(th2 + th3)*sin(th2 + th3);
+
+DJsqDq(3, 3, 3) = - 40*sin(th2 + th3)*(20*cos(th2 + th3) + 30*cos(th2)) - 800*cos(th2 + th3)*sin(th2 + th3);
+
+DJsqDq(3, 3, 4) = 0;
+
+DJsqDq(3, 3, 5) = 0;
+
+DJsqDq(3, 3, 6) = 0;
+
+DJsqDq(3, 4, 1) = 0;
+
+DJsqDq(3, 4, 2) = 0;
+
+DJsqDq(3, 4, 3) = 0;
+
+DJsqDq(3, 4, 4) = 0;
+
+DJsqDq(3, 4, 5) = 0;
+
+DJsqDq(3, 4, 6) = 0;
+
+DJsqDq(3, 5, 1) = 0;
+
+DJsqDq(3, 5, 2) = 20*sign(cos(th2 + th3))*sin(th2 + th3) + sign(cos(th2 + th3))*(20*sin(th2 + th3) + 30*sin(th2)) + 2*dirac(cos(th2 + th3))*sin(th2 + th3)*(20*cos(th2 + th3) + 30*cos(th2)) + 40*dirac(cos(th2 + th3))*cos(th2 + th3)*sin(th2 + th3);
+
+DJsqDq(3, 5, 3) = 40*sign(cos(th2 + th3))*sin(th2 + th3) + 2*dirac(cos(th2 + th3))*sin(th2 + th3)*(20*cos(th2 + th3) + 30*cos(th2)) + 40*dirac(cos(th2 + th3))*cos(th2 + th3)*sin(th2 + th3);
+
+DJsqDq(3, 5, 4) = 0;
+
+DJsqDq(3, 5, 5) = 0;
+
+DJsqDq(3, 5, 6) = 0;
+
+DJsqDq(3, 6, 1) = 0;
+
+DJsqDq(3, 6, 2) = 0;
+
+DJsqDq(3, 6, 3) = 0;
+
+DJsqDq(3, 6, 4) = 0;
+
+DJsqDq(3, 6, 5) = 0;
+
+DJsqDq(3, 6, 6) = 0;
+
+DJsqDq(4, 1, 1) = 0;
+
+DJsqDq(4, 1, 2) = 0;
+
+DJsqDq(4, 1, 3) = 0;
+
+DJsqDq(4, 1, 4) = 0;
+
+DJsqDq(4, 1, 5) = 0;
+
+DJsqDq(4, 1, 6) = 0;
+
+DJsqDq(4, 2, 1) = 0;
+
+DJsqDq(4, 2, 2) = 0;
+
+DJsqDq(4, 2, 3) = 0;
+
+DJsqDq(4, 2, 4) = 0;
+
+DJsqDq(4, 2, 5) = 0;
+
+DJsqDq(4, 2, 6) = 0;
+
+DJsqDq(4, 3, 1) = 0;
+
+DJsqDq(4, 3, 2) = 0;
+
+DJsqDq(4, 3, 3) = 0;
+
+DJsqDq(4, 3, 4) = 0;
+
+DJsqDq(4, 3, 5) = 0;
+
+DJsqDq(4, 3, 6) = 0;
+
+DJsqDq(4, 4, 1) = 0;
+
+DJsqDq(4, 4, 2) = 0;
+
+DJsqDq(4, 4, 3) = 0;
+
+DJsqDq(4, 4, 4) = 0;
+
+DJsqDq(4, 4, 5) = 0;
+
+DJsqDq(4, 4, 6) = 0;
+
+DJsqDq(4, 5, 1) = 0;
+
+DJsqDq(4, 5, 2) = 0;
+
+DJsqDq(4, 5, 3) = 0;
+
+DJsqDq(4, 5, 4) = 0;
+
+DJsqDq(4, 5, 5) = 0;
+
+DJsqDq(4, 5, 6) = 0;
+
+DJsqDq(4, 6, 1) = 0;
+
+DJsqDq(4, 6, 2) = 0;
+
+DJsqDq(4, 6, 3) = 0;
+
+DJsqDq(4, 6, 4) = 0;
+
+DJsqDq(4, 6, 5) = 0;
+
+DJsqDq(4, 6, 6) = 0;
+
+DJsqDq(5, 1, 1) = 20*sign(cos(th2 + th3))*sin(th2 + th3)*sin(th1 + thb) + 10*sign(cos(th2 + th3))*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(5, 1, 2) = 40*dirac(cos(th2 + th3))*cos(th1 + thb)*sin(th2 + th3)^2 - 10*sign(cos(th2 + th3))*cos(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2)) - 20*sign(cos(th2 + th3))*cos(th2 + th3)*cos(th1 + thb) + 20*dirac(cos(th2 + th3))*cos(th1 + thb)*sin(th2 + th3)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(5, 1, 3) = 40*dirac(cos(th2 + th3))*cos(th1 + thb)*sin(th2 + th3)^2 - 40*sign(cos(th2 + th3))*cos(th2 + th3)*cos(th1 + thb) + 20*dirac(cos(th2 + th3))*cos(th1 + thb)*sin(th2 + th3)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(5, 1, 4) = 0;
+
+DJsqDq(5, 1, 5) = 0;
+
+DJsqDq(5, 1, 6) = 20*sign(cos(th2 + th3))*sin(th2 + th3)*sin(th1 + thb) + 10*sign(cos(th2 + th3))*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(5, 2, 1) = - 20*sign(cos(th2 + th3))*cos(th1 + thb)*sin(th2 + th3) - 10*sign(cos(th2 + th3))*cos(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(5, 2, 2) = 40*dirac(cos(th2 + th3))*sin(th2 + th3)^2*sin(th1 + thb) - 10*sign(cos(th2 + th3))*sin(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2)) - 20*sign(cos(th2 + th3))*cos(th2 + th3)*sin(th1 + thb) + 20*dirac(cos(th2 + th3))*sin(th2 + th3)*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(5, 2, 3) = 40*dirac(cos(th2 + th3))*sin(th2 + th3)^2*sin(th1 + thb) - 40*sign(cos(th2 + th3))*cos(th2 + th3)*sin(th1 + thb) + 20*dirac(cos(th2 + th3))*sin(th2 + th3)*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(5, 2, 4) = 0;
+
+DJsqDq(5, 2, 5) = 0;
+
+DJsqDq(5, 2, 6) = - 20*sign(cos(th2 + th3))*cos(th1 + thb)*sin(th2 + th3) - 10*sign(cos(th2 + th3))*cos(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(5, 3, 1) = 0;
+
+DJsqDq(5, 3, 2) = 20*sign(cos(th2 + th3))*sin(th2 + th3) + sign(cos(th2 + th3))*(20*sin(th2 + th3) + 30*sin(th2)) + 2*dirac(cos(th2 + th3))*sin(th2 + th3)*(20*cos(th2 + th3) + 30*cos(th2)) + 40*dirac(cos(th2 + th3))*cos(th2 + th3)*sin(th2 + th3);
+
+DJsqDq(5, 3, 3) = 40*sign(cos(th2 + th3))*sin(th2 + th3) + 2*dirac(cos(th2 + th3))*sin(th2 + th3)*(20*cos(th2 + th3) + 30*cos(th2)) + 40*dirac(cos(th2 + th3))*cos(th2 + th3)*sin(th2 + th3);
+
+DJsqDq(5, 3, 4) = 0;
+
+DJsqDq(5, 3, 5) = 0;
+
+DJsqDq(5, 3, 6) = 0;
+
+DJsqDq(5, 4, 1) = 0;
+
+DJsqDq(5, 4, 2) = 0;
+
+DJsqDq(5, 4, 3) = 0;
+
+DJsqDq(5, 4, 4) = 0;
+
+DJsqDq(5, 4, 5) = 0;
+
+DJsqDq(5, 4, 6) = 0;
+
+DJsqDq(5, 5, 1) = 0;
+
+DJsqDq(5, 5, 2) = -8*dirac(cos(th2 + th3))*sign(cos(th2 + th3))*sin(th2 + th3);
+
+DJsqDq(5, 5, 3) = -8*dirac(cos(th2 + th3))*sign(cos(th2 + th3))*sin(th2 + th3);
+
+DJsqDq(5, 5, 4) = 0;
+
+DJsqDq(5, 5, 5) = 0;
+
+DJsqDq(5, 5, 6) = 0;
+
+DJsqDq(5, 6, 1) = 0;
+
+DJsqDq(5, 6, 2) = 0;
+
+DJsqDq(5, 6, 3) = 0;
+
+DJsqDq(5, 6, 4) = 0;
+
+DJsqDq(5, 6, 5) = 0;
+
+DJsqDq(5, 6, 6) = 0;
+
+DJsqDq(6, 1, 1) = - 10*cos(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2)) - (Rw^2*(40*cos(th2 + th3)*cos(th1 + thb) + 60*cos(th1 + thb)*cos(th2)))/T^2;
+
+DJsqDq(6, 1, 2) = 10*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2)) + (Rw^2*(60*sin(th1 + thb)*sin(th2) + 40*sin(th2 + th3)*sin(th1 + thb)))/T^2;
+
+DJsqDq(6, 1, 3) = 20*sin(th2 + th3)*sin(th1 + thb) + (40*Rw^2*sin(th2 + th3)*sin(th1 + thb))/T^2;
+
+DJsqDq(6, 1, 4) = 0;
+
+DJsqDq(6, 1, 5) = 0;
+
+DJsqDq(6, 1, 6) = - 10*cos(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2)) - (Rw^2*(2*cos(thb) + T*sin(thb) + 40*cos(th2 + th3)*cos(th1 + thb) + 60*cos(th1 + thb)*cos(th2)))/(2*T^2) - (Rw^2*(2*cos(thb) - T*sin(thb) + 40*cos(th2 + th3)*cos(th1 + thb) + 60*cos(th1 + thb)*cos(th2)))/(2*T^2);
+
+DJsqDq(6, 2, 1) = - 10*sin(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2)) - (Rw^2*(40*cos(th2 + th3)*sin(th1 + thb) + 60*sin(th1 + thb)*cos(th2)))/T^2;
+
+DJsqDq(6, 2, 2) = - 10*cos(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2)) - (Rw^2*(40*cos(th1 + thb)*sin(th2 + th3) + 60*cos(th1 + thb)*sin(th2)))/T^2;
+
+DJsqDq(6, 2, 3) = - 20*cos(th1 + thb)*sin(th2 + th3) - (40*Rw^2*cos(th1 + thb)*sin(th2 + th3))/T^2;
+
+DJsqDq(6, 2, 4) = 0;
+
+DJsqDq(6, 2, 5) = 0;
+
+DJsqDq(6, 2, 6) = - 10*sin(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2)) - (Rw^2*(2*sin(thb) + T*cos(thb) + 40*cos(th2 + th3)*sin(th1 + thb) + 60*sin(th1 + thb)*cos(th2)))/(2*T^2) - (Rw^2*(2*sin(thb) - T*cos(thb) + 40*cos(th2 + th3)*sin(th1 + thb) + 60*sin(th1 + thb)*cos(th2)))/(2*T^2);
+
+DJsqDq(6, 3, 1) = 0;
+
+DJsqDq(6, 3, 2) = 0;
+
+DJsqDq(6, 3, 3) = 0;
+
+DJsqDq(6, 3, 4) = 0;
+
+DJsqDq(6, 3, 5) = 0;
+
+DJsqDq(6, 3, 6) = 0;
+
+DJsqDq(6, 4, 1) = 0;
+
+DJsqDq(6, 4, 2) = 0;
+
+DJsqDq(6, 4, 3) = 0;
+
+DJsqDq(6, 4, 4) = 0;
+
+DJsqDq(6, 4, 5) = 0;
+
+DJsqDq(6, 4, 6) = 0;
+
+DJsqDq(6, 5, 1) = 0;
+
+DJsqDq(6, 5, 2) = 0;
+
+DJsqDq(6, 5, 3) = 0;
+
+DJsqDq(6, 5, 4) = 0;
+
+DJsqDq(6, 5, 5) = 0;
+
+DJsqDq(6, 5, 6) = 0;
+
+DJsqDq(6, 6, 1) = 0;
+
+DJsqDq(6, 6, 2) = 0;
+
+DJsqDq(6, 6, 3) = 0;
+
+DJsqDq(6, 6, 4) = 0;
+
+DJsqDq(6, 6, 5) = 0;
+
+DJsqDq(6, 6, 6) = 0;
+
+
+endDJsqDq(1, 1, 1) = 200*cos(th1 + thb)*sin(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2))^2 - 800*cos(th1 + thb)*sin(th2 + th3)^2*sin(th1 + thb) - 200*cos(th1 + thb)*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2))^2 + (2*Rw*((Rw*cos(thb))/2 + (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T)*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T - (2*Rw*((Rw*cos(thb))/2 - (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T)*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T;
+
+DJsqDq(1, 1, 2) = 200*cos(th1 + thb)^2*(2*cos(th2 + th3) + 3*cos(th2))*(2*sin(th2 + th3) + 3*sin(th2)) + 800*cos(th2 + th3)*cos(th1 + thb)^2*sin(th2 + th3) - 200*sin(th1 + thb)^2*(2*cos(th2 + th3) + 3*cos(th2))*(2*sin(th2 + th3) + 3*sin(th2)) - (2*Rw*(30*sin(th1 + thb)*sin(th2) + 20*sin(th2 + th3)*sin(th1 + thb))*((Rw*cos(thb))/2 + (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T))/T + (2*Rw*(30*sin(th1 + thb)*sin(th2) + 20*sin(th2 + th3)*sin(th1 + thb))*((Rw*cos(thb))/2 - (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T))/T;
+
+DJsqDq(1, 1, 3) = 800*cos(th2 + th3)*cos(th1 + thb)^2*sin(th2 + th3) + 400*cos(th2 + th3)*cos(th1 + thb)^2*(2*sin(th2 + th3) + 3*sin(th2)) - 400*sin(th2 + th3)*sin(th1 + thb)^2*(2*cos(th2 + th3) + 3*cos(th2)) - (40*Rw*sin(th2 + th3)*sin(th1 + thb)*((Rw*cos(thb))/2 + (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T))/T + (40*Rw*sin(th2 + th3)*sin(th1 + thb)*((Rw*cos(thb))/2 - (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T))/T;
+
+DJsqDq(1, 1, 4) = 0;
+
+DJsqDq(1, 1, 5) = 0;
+
+DJsqDq(1, 1, 6) = 200*cos(th1 + thb)*sin(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2))^2 - 2*((Rw*sin(thb))/2 - (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T)*((Rw*cos(thb))/2 + (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T) - 2*((Rw*sin(thb))/2 + (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T)*((Rw*cos(thb))/2 - (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T) - 800*cos(th1 + thb)*sin(th2 + th3)^2*sin(th1 + thb) - 200*cos(th1 + thb)*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2))^2;
+
+DJsqDq(1, 2, 1) = 100*sin(th1 + thb)^2*(2*cos(th2 + th3) + 3*cos(th2))^2 - 100*cos(th1 + thb)^2*(2*cos(th2 + th3) + 3*cos(th2))^2 + 400*cos(th1 + thb)^2*sin(th2 + th3)^2 + 100*cos(th1 + thb)^2*(2*sin(th2 + th3) + 3*sin(th2))^2 - 400*sin(th2 + th3)^2*sin(th1 + thb)^2 - 100*sin(th1 + thb)^2*(2*sin(th2 + th3) + 3*sin(th2))^2 - (Rw*((Rw*sin(thb))/2 + (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T)*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T + (Rw*((Rw*sin(thb))/2 - (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T)*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T + (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2))*((Rw*cos(thb))/2 + (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T))/T - (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2))*((Rw*cos(thb))/2 - (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T))/T;
+
+DJsqDq(1, 2, 2) = 400*cos(th1 + thb)*sin(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2))*(2*sin(th2 + th3) + 3*sin(th2)) + 800*cos(th2 + th3)*cos(th1 + thb)*sin(th2 + th3)*sin(th1 + thb) + (Rw*(20*cos(th1 + thb)*sin(th2 + th3) + 30*cos(th1 + thb)*sin(th2))*((Rw*cos(thb))/2 + (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T))/T - (Rw*(20*cos(th1 + thb)*sin(th2 + th3) + 30*cos(th1 + thb)*sin(th2))*((Rw*cos(thb))/2 - (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T))/T + (Rw*(30*sin(th1 + thb)*sin(th2) + 20*sin(th2 + th3)*sin(th1 + thb))*((Rw*sin(thb))/2 + (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T))/T - (Rw*(30*sin(th1 + thb)*sin(th2) + 20*sin(th2 + th3)*sin(th1 + thb))*((Rw*sin(thb))/2 - (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T))/T;
+
+DJsqDq(1, 2, 3) = 400*cos(th1 + thb)*sin(th2 + th3)*sin(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2)) + 800*cos(th2 + th3)*cos(th1 + thb)*sin(th2 + th3)*sin(th1 + thb) + 400*cos(th2 + th3)*cos(th1 + thb)*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2)) + (20*Rw*cos(th1 + thb)*sin(th2 + th3)*((Rw*cos(thb))/2 + (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T))/T + (20*Rw*sin(th2 + th3)*sin(th1 + thb)*((Rw*sin(thb))/2 + (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T))/T - (20*Rw*cos(th1 + thb)*sin(th2 + th3)*((Rw*cos(thb))/2 - (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T))/T - (20*Rw*sin(th2 + th3)*sin(th1 + thb)*((Rw*sin(thb))/2 - (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T))/T;
+
+DJsqDq(1, 2, 4) = 0;
+
+DJsqDq(1, 2, 5) = 0;
+
+DJsqDq(1, 2, 6) = 100*sin(th1 + thb)^2*(2*cos(th2 + th3) + 3*cos(th2))^2 - 100*cos(th1 + thb)^2*(2*cos(th2 + th3) + 3*cos(th2))^2 + 400*cos(th1 + thb)^2*sin(th2 + th3)^2 + 100*cos(th1 + thb)^2*(2*sin(th2 + th3) + 3*sin(th2))^2 - 400*sin(th2 + th3)^2*sin(th1 + thb)^2 - 100*sin(th1 + thb)^2*(2*sin(th2 + th3) + 3*sin(th2))^2 - ((Rw*sin(thb))/2 + (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T)^2 - ((Rw*sin(thb))/2 - (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T)^2 + ((Rw*cos(thb))/2 + (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T)^2 + ((Rw*cos(thb))/2 - (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T)^2;
+
+DJsqDq(1, 3, 1) = - 10*sin(th1 + thb)*(20*cos(th2 + th3) + 30*cos(th2))*(2*sin(th2 + th3) + 3*sin(th2)) - 400*cos(th2 + th3)*sin(th2 + th3)*sin(th1 + thb);
+
+DJsqDq(1, 3, 2) = 400*cos(th2 + th3)^2*cos(th1 + thb) - 400*cos(th1 + thb)*sin(th2 + th3)^2 + 10*cos(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2))*(20*cos(th2 + th3) + 30*cos(th2)) - 10*cos(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2))*(20*sin(th2 + th3) + 30*sin(th2));
+
+DJsqDq(1, 3, 3) = 400*cos(th2 + th3)^2*cos(th1 + thb) - 400*cos(th1 + thb)*sin(th2 + th3)^2 + 20*cos(th2 + th3)*cos(th1 + thb)*(20*cos(th2 + th3) + 30*cos(th2)) - 200*cos(th1 + thb)*sin(th2 + th3)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(1, 3, 4) = 0;
+
+DJsqDq(1, 3, 5) = 0;
+
+DJsqDq(1, 3, 6) = - 10*sin(th1 + thb)*(20*cos(th2 + th3) + 30*cos(th2))*(2*sin(th2 + th3) + 3*sin(th2)) - 400*cos(th2 + th3)*sin(th2 + th3)*sin(th1 + thb);
+
+DJsqDq(1, 4, 1) = 0;
+
+DJsqDq(1, 4, 2) = 0;
+
+DJsqDq(1, 4, 3) = 0;
+
+DJsqDq(1, 4, 4) = 0;
+
+DJsqDq(1, 4, 5) = 0;
+
+DJsqDq(1, 4, 6) = 0;
+
+DJsqDq(1, 5, 1) = 20*sign(cos(th2 + th3))*sin(th2 + th3)*sin(th1 + thb) + 10*sign(cos(th2 + th3))*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(1, 5, 2) = 40*dirac(cos(th2 + th3))*cos(th1 + thb)*sin(th2 + th3)^2 - 10*sign(cos(th2 + th3))*cos(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2)) - 20*sign(cos(th2 + th3))*cos(th2 + th3)*cos(th1 + thb) + 20*dirac(cos(th2 + th3))*cos(th1 + thb)*sin(th2 + th3)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(1, 5, 3) = 40*dirac(cos(th2 + th3))*cos(th1 + thb)*sin(th2 + th3)^2 - 40*sign(cos(th2 + th3))*cos(th2 + th3)*cos(th1 + thb) + 20*dirac(cos(th2 + th3))*cos(th1 + thb)*sin(th2 + th3)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(1, 5, 4) = 0;
+
+DJsqDq(1, 5, 5) = 0;
+
+DJsqDq(1, 5, 6) = 20*sign(cos(th2 + th3))*sin(th2 + th3)*sin(th1 + thb) + 10*sign(cos(th2 + th3))*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(1, 6, 1) = - 10*cos(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2)) - (2*Rw^2*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T^2;
+
+DJsqDq(1, 6, 2) = 10*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2)) + (2*Rw^2*(30*sin(th1 + thb)*sin(th2) + 20*sin(th2 + th3)*sin(th1 + thb)))/T^2;
+
+DJsqDq(1, 6, 3) = 20*sin(th2 + th3)*sin(th1 + thb) + (40*Rw^2*sin(th2 + th3)*sin(th1 + thb))/T^2;
+
+DJsqDq(1, 6, 4) = 0;
+
+DJsqDq(1, 6, 5) = 0;
+
+DJsqDq(1, 6, 6) = (Rw*((Rw*sin(thb))/2 - (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T))/T - (Rw*((Rw*sin(thb))/2 + (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T))/T - 10*cos(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2));
+
+DJsqDq(2, 1, 1) = 100*sin(th1 + thb)^2*(2*cos(th2 + th3) + 3*cos(th2))^2 - 100*cos(th1 + thb)^2*(2*cos(th2 + th3) + 3*cos(th2))^2 + 400*cos(th1 + thb)^2*sin(th2 + th3)^2 + 100*cos(th1 + thb)^2*(2*sin(th2 + th3) + 3*sin(th2))^2 - 400*sin(th2 + th3)^2*sin(th1 + thb)^2 - 100*sin(th1 + thb)^2*(2*sin(th2 + th3) + 3*sin(th2))^2 - (Rw*((Rw*sin(thb))/2 + (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T)*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T + (Rw*((Rw*sin(thb))/2 - (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T)*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T + (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2))*((Rw*cos(thb))/2 + (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T))/T - (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2))*((Rw*cos(thb))/2 - (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T))/T;
+
+DJsqDq(2, 1, 2) = 400*cos(th1 + thb)*sin(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2))*(2*sin(th2 + th3) + 3*sin(th2)) + 800*cos(th2 + th3)*cos(th1 + thb)*sin(th2 + th3)*sin(th1 + thb) + (Rw*(20*cos(th1 + thb)*sin(th2 + th3) + 30*cos(th1 + thb)*sin(th2))*((Rw*cos(thb))/2 + (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T))/T - (Rw*(20*cos(th1 + thb)*sin(th2 + th3) + 30*cos(th1 + thb)*sin(th2))*((Rw*cos(thb))/2 - (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T))/T + (Rw*(30*sin(th1 + thb)*sin(th2) + 20*sin(th2 + th3)*sin(th1 + thb))*((Rw*sin(thb))/2 + (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T))/T - (Rw*(30*sin(th1 + thb)*sin(th2) + 20*sin(th2 + th3)*sin(th1 + thb))*((Rw*sin(thb))/2 - (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T))/T;
+
+DJsqDq(2, 1, 3) = 400*cos(th1 + thb)*sin(th2 + th3)*sin(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2)) + 800*cos(th2 + th3)*cos(th1 + thb)*sin(th2 + th3)*sin(th1 + thb) + 400*cos(th2 + th3)*cos(th1 + thb)*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2)) + (20*Rw*cos(th1 + thb)*sin(th2 + th3)*((Rw*cos(thb))/2 + (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T))/T + (20*Rw*sin(th2 + th3)*sin(th1 + thb)*((Rw*sin(thb))/2 + (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T))/T - (20*Rw*cos(th1 + thb)*sin(th2 + th3)*((Rw*cos(thb))/2 - (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T))/T - (20*Rw*sin(th2 + th3)*sin(th1 + thb)*((Rw*sin(thb))/2 - (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T))/T;
+
+DJsqDq(2, 1, 4) = 0;
+
+DJsqDq(2, 1, 5) = 0;
+
+DJsqDq(2, 1, 6) = 100*sin(th1 + thb)^2*(2*cos(th2 + th3) + 3*cos(th2))^2 - 100*cos(th1 + thb)^2*(2*cos(th2 + th3) + 3*cos(th2))^2 + 400*cos(th1 + thb)^2*sin(th2 + th3)^2 + 100*cos(th1 + thb)^2*(2*sin(th2 + th3) + 3*sin(th2))^2 - 400*sin(th2 + th3)^2*sin(th1 + thb)^2 - 100*sin(th1 + thb)^2*(2*sin(th2 + th3) + 3*sin(th2))^2 - ((Rw*sin(thb))/2 + (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T)^2 - ((Rw*sin(thb))/2 - (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T)^2 + ((Rw*cos(thb))/2 + (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T)^2 + ((Rw*cos(thb))/2 - (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T)^2;
+
+DJsqDq(2, 2, 1) = 800*cos(th1 + thb)*sin(th2 + th3)^2*sin(th1 + thb) - 200*cos(th1 + thb)*sin(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2))^2 + 200*cos(th1 + thb)*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2))^2 - (2*Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2))*((Rw*sin(thb))/2 + (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T))/T + (2*Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2))*((Rw*sin(thb))/2 - (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T))/T;
+
+DJsqDq(2, 2, 2) = 200*sin(th1 + thb)^2*(2*cos(th2 + th3) + 3*cos(th2))*(2*sin(th2 + th3) + 3*sin(th2)) - 200*cos(th1 + thb)^2*(2*cos(th2 + th3) + 3*cos(th2))*(2*sin(th2 + th3) + 3*sin(th2)) + 800*cos(th2 + th3)*sin(th2 + th3)*sin(th1 + thb)^2 - (2*Rw*(20*cos(th1 + thb)*sin(th2 + th3) + 30*cos(th1 + thb)*sin(th2))*((Rw*sin(thb))/2 + (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T))/T + (2*Rw*(20*cos(th1 + thb)*sin(th2 + th3) + 30*cos(th1 + thb)*sin(th2))*((Rw*sin(thb))/2 - (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T))/T;
+
+DJsqDq(2, 2, 3) = 800*cos(th2 + th3)*sin(th2 + th3)*sin(th1 + thb)^2 - 400*cos(th1 + thb)^2*sin(th2 + th3)*(2*cos(th2 + th3) + 3*cos(th2)) + 400*cos(th2 + th3)*sin(th1 + thb)^2*(2*sin(th2 + th3) + 3*sin(th2)) - (40*Rw*cos(th1 + thb)*sin(th2 + th3)*((Rw*sin(thb))/2 + (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T))/T + (40*Rw*cos(th1 + thb)*sin(th2 + th3)*((Rw*sin(thb))/2 - (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T))/T;
+
+DJsqDq(2, 2, 4) = 0;
+
+DJsqDq(2, 2, 5) = 0;
+
+DJsqDq(2, 2, 6) = 2*((Rw*sin(thb))/2 + (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T)*((Rw*cos(thb))/2 - (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T) + 2*((Rw*sin(thb))/2 - (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T)*((Rw*cos(thb))/2 + (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T) - 200*cos(th1 + thb)*sin(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2))^2 + 800*cos(th1 + thb)*sin(th2 + th3)^2*sin(th1 + thb) + 200*cos(th1 + thb)*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2))^2;
+
+DJsqDq(2, 3, 1) = 10*cos(th1 + thb)*(20*cos(th2 + th3) + 30*cos(th2))*(2*sin(th2 + th3) + 3*sin(th2)) + 400*cos(th2 + th3)*cos(th1 + thb)*sin(th2 + th3);
+
+DJsqDq(2, 3, 2) = 400*cos(th2 + th3)^2*sin(th1 + thb) - 400*sin(th2 + th3)^2*sin(th1 + thb) + 10*sin(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2))*(20*cos(th2 + th3) + 30*cos(th2)) - 10*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2))*(20*sin(th2 + th3) + 30*sin(th2));
+
+DJsqDq(2, 3, 3) = 400*cos(th2 + th3)^2*sin(th1 + thb) - 400*sin(th2 + th3)^2*sin(th1 + thb) + 20*cos(th2 + th3)*sin(th1 + thb)*(20*cos(th2 + th3) + 30*cos(th2)) - 200*sin(th2 + th3)*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(2, 3, 4) = 0;
+
+DJsqDq(2, 3, 5) = 0;
+
+DJsqDq(2, 3, 6) = 10*cos(th1 + thb)*(20*cos(th2 + th3) + 30*cos(th2))*(2*sin(th2 + th3) + 3*sin(th2)) + 400*cos(th2 + th3)*cos(th1 + thb)*sin(th2 + th3);
+
+DJsqDq(2, 4, 1) = 0;
+
+DJsqDq(2, 4, 2) = 0;
+
+DJsqDq(2, 4, 3) = 0;
+
+DJsqDq(2, 4, 4) = 0;
+
+DJsqDq(2, 4, 5) = 0;
+
+DJsqDq(2, 4, 6) = 0;
+
+DJsqDq(2, 5, 1) = - 20*sign(cos(th2 + th3))*cos(th1 + thb)*sin(th2 + th3) - 10*sign(cos(th2 + th3))*cos(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(2, 5, 2) = 40*dirac(cos(th2 + th3))*sin(th2 + th3)^2*sin(th1 + thb) - 10*sign(cos(th2 + th3))*sin(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2)) - 20*sign(cos(th2 + th3))*cos(th2 + th3)*sin(th1 + thb) + 20*dirac(cos(th2 + th3))*sin(th2 + th3)*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(2, 5, 3) = 40*dirac(cos(th2 + th3))*sin(th2 + th3)^2*sin(th1 + thb) - 40*sign(cos(th2 + th3))*cos(th2 + th3)*sin(th1 + thb) + 20*dirac(cos(th2 + th3))*sin(th2 + th3)*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(2, 5, 4) = 0;
+
+DJsqDq(2, 5, 5) = 0;
+
+DJsqDq(2, 5, 6) = - 20*sign(cos(th2 + th3))*cos(th1 + thb)*sin(th2 + th3) - 10*sign(cos(th2 + th3))*cos(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(2, 6, 1) = - 10*sin(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2)) - (2*Rw^2*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T^2;
+
+DJsqDq(2, 6, 2) = - 10*cos(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2)) - (2*Rw^2*(20*cos(th1 + thb)*sin(th2 + th3) + 30*cos(th1 + thb)*sin(th2)))/T^2;
+
+DJsqDq(2, 6, 3) = - 20*cos(th1 + thb)*sin(th2 + th3) - (40*Rw^2*cos(th1 + thb)*sin(th2 + th3))/T^2;
+
+DJsqDq(2, 6, 4) = 0;
+
+DJsqDq(2, 6, 5) = 0;
+
+DJsqDq(2, 6, 6) = (Rw*((Rw*cos(thb))/2 - (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T))/T - (Rw*((Rw*cos(thb))/2 + (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T))/T - 10*sin(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2));
+
+DJsqDq(3, 1, 1) = - 10*sin(th1 + thb)*(20*cos(th2 + th3) + 30*cos(th2))*(2*sin(th2 + th3) + 3*sin(th2)) - 400*cos(th2 + th3)*sin(th2 + th3)*sin(th1 + thb);
+
+DJsqDq(3, 1, 2) = 400*cos(th2 + th3)^2*cos(th1 + thb) - 400*cos(th1 + thb)*sin(th2 + th3)^2 + 10*cos(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2))*(20*cos(th2 + th3) + 30*cos(th2)) - 10*cos(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2))*(20*sin(th2 + th3) + 30*sin(th2));
+
+DJsqDq(3, 1, 3) = 400*cos(th2 + th3)^2*cos(th1 + thb) - 400*cos(th1 + thb)*sin(th2 + th3)^2 + 20*cos(th2 + th3)*cos(th1 + thb)*(20*cos(th2 + th3) + 30*cos(th2)) - 200*cos(th1 + thb)*sin(th2 + th3)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(3, 1, 4) = 0;
+
+DJsqDq(3, 1, 5) = 0;
+
+DJsqDq(3, 1, 6) = - 10*sin(th1 + thb)*(20*cos(th2 + th3) + 30*cos(th2))*(2*sin(th2 + th3) + 3*sin(th2)) - 400*cos(th2 + th3)*sin(th2 + th3)*sin(th1 + thb);
+
+DJsqDq(3, 2, 1) = 10*cos(th1 + thb)*(20*cos(th2 + th3) + 30*cos(th2))*(2*sin(th2 + th3) + 3*sin(th2)) + 400*cos(th2 + th3)*cos(th1 + thb)*sin(th2 + th3);
+
+DJsqDq(3, 2, 2) = 400*cos(th2 + th3)^2*sin(th1 + thb) - 400*sin(th2 + th3)^2*sin(th1 + thb) + 10*sin(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2))*(20*cos(th2 + th3) + 30*cos(th2)) - 10*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2))*(20*sin(th2 + th3) + 30*sin(th2));
+
+DJsqDq(3, 2, 3) = 400*cos(th2 + th3)^2*sin(th1 + thb) - 400*sin(th2 + th3)^2*sin(th1 + thb) + 20*cos(th2 + th3)*sin(th1 + thb)*(20*cos(th2 + th3) + 30*cos(th2)) - 200*sin(th2 + th3)*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(3, 2, 4) = 0;
+
+DJsqDq(3, 2, 5) = 0;
+
+DJsqDq(3, 2, 6) = 10*cos(th1 + thb)*(20*cos(th2 + th3) + 30*cos(th2))*(2*sin(th2 + th3) + 3*sin(th2)) + 400*cos(th2 + th3)*cos(th1 + thb)*sin(th2 + th3);
+
+DJsqDq(3, 3, 1) = 0;
+
+DJsqDq(3, 3, 2) = - 2*(20*cos(th2 + th3) + 30*cos(th2))*(20*sin(th2 + th3) + 30*sin(th2)) - 800*cos(th2 + th3)*sin(th2 + th3);
+
+DJsqDq(3, 3, 3) = - 40*sin(th2 + th3)*(20*cos(th2 + th3) + 30*cos(th2)) - 800*cos(th2 + th3)*sin(th2 + th3);
+
+DJsqDq(3, 3, 4) = 0;
+
+DJsqDq(3, 3, 5) = 0;
+
+DJsqDq(3, 3, 6) = 0;
+
+DJsqDq(3, 4, 1) = 0;
+
+DJsqDq(3, 4, 2) = 0;
+
+DJsqDq(3, 4, 3) = 0;
+
+DJsqDq(3, 4, 4) = 0;
+
+DJsqDq(3, 4, 5) = 0;
+
+DJsqDq(3, 4, 6) = 0;
+
+DJsqDq(3, 5, 1) = 0;
+
+DJsqDq(3, 5, 2) = 20*sign(cos(th2 + th3))*sin(th2 + th3) + sign(cos(th2 + th3))*(20*sin(th2 + th3) + 30*sin(th2)) + 2*dirac(cos(th2 + th3))*sin(th2 + th3)*(20*cos(th2 + th3) + 30*cos(th2)) + 40*dirac(cos(th2 + th3))*cos(th2 + th3)*sin(th2 + th3);
+
+DJsqDq(3, 5, 3) = 40*sign(cos(th2 + th3))*sin(th2 + th3) + 2*dirac(cos(th2 + th3))*sin(th2 + th3)*(20*cos(th2 + th3) + 30*cos(th2)) + 40*dirac(cos(th2 + th3))*cos(th2 + th3)*sin(th2 + th3);
+
+DJsqDq(3, 5, 4) = 0;
+
+DJsqDq(3, 5, 5) = 0;
+
+DJsqDq(3, 5, 6) = 0;
+
+DJsqDq(3, 6, 1) = 0;
+
+DJsqDq(3, 6, 2) = 0;
+
+DJsqDq(3, 6, 3) = 0;
+
+DJsqDq(3, 6, 4) = 0;
+
+DJsqDq(3, 6, 5) = 0;
+
+DJsqDq(3, 6, 6) = 0;
+
+DJsqDq(4, 1, 1) = 0;
+
+DJsqDq(4, 1, 2) = 0;
+
+DJsqDq(4, 1, 3) = 0;
+
+DJsqDq(4, 1, 4) = 0;
+
+DJsqDq(4, 1, 5) = 0;
+
+DJsqDq(4, 1, 6) = 0;
+
+DJsqDq(4, 2, 1) = 0;
+
+DJsqDq(4, 2, 2) = 0;
+
+DJsqDq(4, 2, 3) = 0;
+
+DJsqDq(4, 2, 4) = 0;
+
+DJsqDq(4, 2, 5) = 0;
+
+DJsqDq(4, 2, 6) = 0;
+
+DJsqDq(4, 3, 1) = 0;
+
+DJsqDq(4, 3, 2) = 0;
+
+DJsqDq(4, 3, 3) = 0;
+
+DJsqDq(4, 3, 4) = 0;
+
+DJsqDq(4, 3, 5) = 0;
+
+DJsqDq(4, 3, 6) = 0;
+
+DJsqDq(4, 4, 1) = 0;
+
+DJsqDq(4, 4, 2) = 0;
+
+DJsqDq(4, 4, 3) = 0;
+
+DJsqDq(4, 4, 4) = 0;
+
+DJsqDq(4, 4, 5) = 0;
+
+DJsqDq(4, 4, 6) = 0;
+
+DJsqDq(4, 5, 1) = 0;
+
+DJsqDq(4, 5, 2) = 0;
+
+DJsqDq(4, 5, 3) = 0;
+
+DJsqDq(4, 5, 4) = 0;
+
+DJsqDq(4, 5, 5) = 0;
+
+DJsqDq(4, 5, 6) = 0;
+
+DJsqDq(4, 6, 1) = 0;
+
+DJsqDq(4, 6, 2) = 0;
+
+DJsqDq(4, 6, 3) = 0;
+
+DJsqDq(4, 6, 4) = 0;
+
+DJsqDq(4, 6, 5) = 0;
+
+DJsqDq(4, 6, 6) = 0;
+
+DJsqDq(5, 1, 1) = 20*sign(cos(th2 + th3))*sin(th2 + th3)*sin(th1 + thb) + 10*sign(cos(th2 + th3))*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(5, 1, 2) = 40*dirac(cos(th2 + th3))*cos(th1 + thb)*sin(th2 + th3)^2 - 10*sign(cos(th2 + th3))*cos(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2)) - 20*sign(cos(th2 + th3))*cos(th2 + th3)*cos(th1 + thb) + 20*dirac(cos(th2 + th3))*cos(th1 + thb)*sin(th2 + th3)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(5, 1, 3) = 40*dirac(cos(th2 + th3))*cos(th1 + thb)*sin(th2 + th3)^2 - 40*sign(cos(th2 + th3))*cos(th2 + th3)*cos(th1 + thb) + 20*dirac(cos(th2 + th3))*cos(th1 + thb)*sin(th2 + th3)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(5, 1, 4) = 0;
+
+DJsqDq(5, 1, 5) = 0;
+
+DJsqDq(5, 1, 6) = 20*sign(cos(th2 + th3))*sin(th2 + th3)*sin(th1 + thb) + 10*sign(cos(th2 + th3))*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(5, 2, 1) = - 20*sign(cos(th2 + th3))*cos(th1 + thb)*sin(th2 + th3) - 10*sign(cos(th2 + th3))*cos(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(5, 2, 2) = 40*dirac(cos(th2 + th3))*sin(th2 + th3)^2*sin(th1 + thb) - 10*sign(cos(th2 + th3))*sin(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2)) - 20*sign(cos(th2 + th3))*cos(th2 + th3)*sin(th1 + thb) + 20*dirac(cos(th2 + th3))*sin(th2 + th3)*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(5, 2, 3) = 40*dirac(cos(th2 + th3))*sin(th2 + th3)^2*sin(th1 + thb) - 40*sign(cos(th2 + th3))*cos(th2 + th3)*sin(th1 + thb) + 20*dirac(cos(th2 + th3))*sin(th2 + th3)*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(5, 2, 4) = 0;
+
+DJsqDq(5, 2, 5) = 0;
+
+DJsqDq(5, 2, 6) = - 20*sign(cos(th2 + th3))*cos(th1 + thb)*sin(th2 + th3) - 10*sign(cos(th2 + th3))*cos(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2));
+
+DJsqDq(5, 3, 1) = 0;
+
+DJsqDq(5, 3, 2) = 20*sign(cos(th2 + th3))*sin(th2 + th3) + sign(cos(th2 + th3))*(20*sin(th2 + th3) + 30*sin(th2)) + 2*dirac(cos(th2 + th3))*sin(th2 + th3)*(20*cos(th2 + th3) + 30*cos(th2)) + 40*dirac(cos(th2 + th3))*cos(th2 + th3)*sin(th2 + th3);
+
+DJsqDq(5, 3, 3) = 40*sign(cos(th2 + th3))*sin(th2 + th3) + 2*dirac(cos(th2 + th3))*sin(th2 + th3)*(20*cos(th2 + th3) + 30*cos(th2)) + 40*dirac(cos(th2 + th3))*cos(th2 + th3)*sin(th2 + th3);
+
+DJsqDq(5, 3, 4) = 0;
+
+DJsqDq(5, 3, 5) = 0;
+
+DJsqDq(5, 3, 6) = 0;
+
+DJsqDq(5, 4, 1) = 0;
+
+DJsqDq(5, 4, 2) = 0;
+
+DJsqDq(5, 4, 3) = 0;
+
+DJsqDq(5, 4, 4) = 0;
+
+DJsqDq(5, 4, 5) = 0;
+
+DJsqDq(5, 4, 6) = 0;
+
+DJsqDq(5, 5, 1) = 0;
+
+DJsqDq(5, 5, 2) = -8*dirac(cos(th2 + th3))*sign(cos(th2 + th3))*sin(th2 + th3);
+
+DJsqDq(5, 5, 3) = -8*dirac(cos(th2 + th3))*sign(cos(th2 + th3))*sin(th2 + th3);
+
+DJsqDq(5, 5, 4) = 0;
+
+DJsqDq(5, 5, 5) = 0;
+
+DJsqDq(5, 5, 6) = 0;
+
+DJsqDq(5, 6, 1) = 0;
+
+DJsqDq(5, 6, 2) = 0;
+
+DJsqDq(5, 6, 3) = 0;
+
+DJsqDq(5, 6, 4) = 0;
+
+DJsqDq(5, 6, 5) = 0;
+
+DJsqDq(5, 6, 6) = 0;
+
+DJsqDq(6, 1, 1) = - 10*cos(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2)) - (2*Rw^2*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T^2;
+
+DJsqDq(6, 1, 2) = 10*sin(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2)) + (2*Rw^2*(30*sin(th1 + thb)*sin(th2) + 20*sin(th2 + th3)*sin(th1 + thb)))/T^2;
+
+DJsqDq(6, 1, 3) = 20*sin(th2 + th3)*sin(th1 + thb) + (40*Rw^2*sin(th2 + th3)*sin(th1 + thb))/T^2;
+
+DJsqDq(6, 1, 4) = 0;
+
+DJsqDq(6, 1, 5) = 0;
+
+DJsqDq(6, 1, 6) = (Rw*((Rw*sin(thb))/2 - (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T))/T - (Rw*((Rw*sin(thb))/2 + (Rw*(20*cos(th2 + th3)*cos(th1 + thb) + 30*cos(th1 + thb)*cos(th2)))/T))/T - 10*cos(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2));
+
+DJsqDq(6, 2, 1) = - 10*sin(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2)) - (2*Rw^2*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T^2;
+
+DJsqDq(6, 2, 2) = - 10*cos(th1 + thb)*(2*sin(th2 + th3) + 3*sin(th2)) - (2*Rw^2*(20*cos(th1 + thb)*sin(th2 + th3) + 30*cos(th1 + thb)*sin(th2)))/T^2;
+
+DJsqDq(6, 2, 3) = - 20*cos(th1 + thb)*sin(th2 + th3) - (40*Rw^2*cos(th1 + thb)*sin(th2 + th3))/T^2;
+
+DJsqDq(6, 2, 4) = 0;
+
+DJsqDq(6, 2, 5) = 0;
+
+DJsqDq(6, 2, 6) = (Rw*((Rw*cos(thb))/2 - (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T))/T - (Rw*((Rw*cos(thb))/2 + (Rw*(20*cos(th2 + th3)*sin(th1 + thb) + 30*sin(th1 + thb)*cos(th2)))/T))/T - 10*sin(th1 + thb)*(2*cos(th2 + th3) + 3*cos(th2));
+
+DJsqDq(6, 3, 1) = 0;
+
+DJsqDq(6, 3, 2) = 0;
+
+DJsqDq(6, 3, 3) = 0;
+
+DJsqDq(6, 3, 4) = 0;
+
+DJsqDq(6, 3, 5) = 0;
+
+DJsqDq(6, 3, 6) = 0;
+
+DJsqDq(6, 4, 1) = 0;
+
+DJsqDq(6, 4, 2) = 0;
+
+DJsqDq(6, 4, 3) = 0;
+
+DJsqDq(6, 4, 4) = 0;
+
+DJsqDq(6, 4, 5) = 0;
+
+DJsqDq(6, 4, 6) = 0;
+
+DJsqDq(6, 5, 1) = 0;
+
+DJsqDq(6, 5, 2) = 0;
+
+DJsqDq(6, 5, 3) = 0;
+
+DJsqDq(6, 5, 4) = 0;
+
+DJsqDq(6, 5, 5) = 0;
+
+DJsqDq(6, 5, 6) = 0;
+
+DJsqDq(6, 6, 1) = 0;
+
+DJsqDq(6, 6, 2) = 0;
+
+DJsqDq(6, 6, 3) = 0;
+
+DJsqDq(6, 6, 4) = 0;
+
+DJsqDq(6, 6, 5) = 0;
+
+DJsqDq(6, 6, 6) = 0;
+
+
+end
